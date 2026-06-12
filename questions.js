@@ -13533,6 +13533,36 @@ window.TOEIC_PART5_DATA = {
           "very helpful / much better"
         ],
         [
+          "정도부사",
+          "형용사/부사 앞",
+          "rather well / quite quickly / fairly simple"
+        ],
+        [
+          "enough 위치",
+          "형용사/부사 뒤",
+          "well enough / good enough"
+        ],
+        [
+          "정도부사 뜻",
+          "very=매우, quite/rather/fairly=꽤",
+          "too=너무, so=매우/그래서, enough=충분히"
+        ],
+        [
+          "토익식 고정 조합",
+          "highly/fully/readily/closely/widely/exactly",
+          "highly effective / fully equipped / exactly the same"
+        ],
+        [
+          "거의/주로",
+          "almost/nearly vs mostly/mainly/primarily",
+          "almost complete / mainly because / primarily affect"
+        ],
+        [
+          "비교급 강조",
+          "much/far/even/still/significantly/considerably/slightly + 비교급",
+          "much higher / slightly lower"
+        ],
+        [
           "문장 부사",
           "문장 앞/중간",
           "Fortunately, S V"
@@ -13547,6 +13577,10 @@ window.TOEIC_PART5_DATA = {
       "memorize": [
         "has recently p.p., will probably V, can easily V",
         "very/quite/rather/fairly + 형용사/부사",
+        "뜻: very 매우, extremely 대단히, quite 꽤/상당히, rather 꽤/다소, fairly 꽤/어느 정도, pretty 꽤, too 너무, so 매우/그래서, enough 충분히.",
+        "rather well은 '꽤 잘'이라는 뜻이다. enough는 형용사/부사 뒤에 와서 well enough, good enough가 된다. 단 enough + 명사는 가능하다.",
+        "토익식 조합: highly effective/qualified/recommended, fully equipped/aware, readily available, closely related, widely used/available, exactly the same.",
+        "almost/nearly는 '거의', mostly/mainly/primarily/largely는 '주로/대체로'다.",
         "much/far/even/still + 비교급",
         "only/even은 수식하는 말 바로 앞에 둘 때 의미가 명확하다.",
         "still은 '여전히', yet은 부정문에서 '아직'으로 자주 쓰인다: still open / not yet received."
@@ -13554,6 +13588,10 @@ window.TOEIC_PART5_DATA = {
       "traps": [
         "동사를 꾸미는 자리에는 형용사가 아니라 부사가 온다.",
         "비교급 앞 very가 아니라 much/far/even을 쓴다.",
+        "enough well은 어색하다. 충분히 잘은 well enough가 맞다.",
+        "so far는 '지금까지'라서 이미 끝난 행사 전체 평가 went ___ well에는 보통 맞지 않는다.",
+        "almost employees는 어색하다. 대부분의 직원은 most employees, 거의 모든 직원은 almost all employees.",
+        "exact the same은 틀리고 exactly the same이 맞다. the same이라는 한정사구 앞을 부사가 꾸민다.",
         "hard는 열심히, hardly는 거의 ~않다.",
         "still not과 not yet은 둘 다 가능하지만, 문맥상 '아직 완료 안 됨'은 not yet이 자연스럽다."
       ],
@@ -14172,20 +14210,20 @@ window.TOEIC_PART5_DATA = {
           "number": "13-30",
           "bank": "base",
           "bankLabel": "기초 구조형",
-          "text": "The results were statistically ___ .",
+          "text": "The opening ceremony went ___ well.",
           "options": [
-            "significant",
-            "significantly",
-            "significance",
-            "signify"
+            "enough",
+            "rather",
+            "so far",
+            "right"
           ],
-          "answer": "A",
-          "explanation": "statistically가 형용사 significant를 꾸민다.",
+          "answer": "B",
+          "explanation": "rather well은 '꽤 잘'이라는 뜻의 정도부사 + 부사 구조다. enough는 well 뒤에 와서 well enough가 된다.",
           "feedback": {
-            "A": "정답: statistically가 형용사 significant를 꾸민다.",
-            "B": "오답: significantly는 부사이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. statistically가 형용사 significant를 꾸민다.",
-            "C": "오답: significance는 명사이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. statistically가 형용사 significant를 꾸민다.",
-            "D": "오답: signify는 선택지의 형태/뜻이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. statistically가 형용사 significant를 꾸민다."
+            "A": "오답: enough는 선택지의 형태/뜻이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. rather well은 '꽤 잘'이라는 뜻의 정도부사 + 부사 구조다. enough는 well 뒤에 와서 well enough가 된다.",
+            "B": "정답: rather well은 '꽤 잘'이라는 뜻의 정도부사 + 부사 구조다. enough는 well 뒤에 와서 well enough가 된다.",
+            "C": "오답: so far는 선택지의 형태/뜻이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. rather well은 '꽤 잘'이라는 뜻의 정도부사 + 부사 구조다. enough는 well 뒤에 와서 well enough가 된다.",
+            "D": "오답: right는 선택지의 형태/뜻이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. rather well은 '꽤 잘'이라는 뜻의 정도부사 + 부사 구조다. enough는 well 뒤에 와서 well enough가 된다."
           }
         }
       ],
@@ -14576,20 +14614,20 @@ window.TOEIC_PART5_DATA = {
             "number": "13-LEVEL3-9",
             "bank": "level3",
             "bankLabel": "실전 3단계",
-            "text": "The new brochure describes the service ___ clearly.",
+            "text": "The contract terms will remain ___ the same next year.",
             "options": [
-              "exceptional",
-              "exceptionally",
-              "exception",
-              "except"
+              "exact",
+              "exactly",
+              "exactness",
+              "exacted"
             ],
             "answer": "B",
-            "explanation": "clearly를 꾸미는 부사 exceptionally가 맞다.",
+            "explanation": "the same을 앞에서 꾸미는 부사 exactly가 필요하다. exactly the same은 토익식 빈출 조합이다.",
             "feedback": {
-              "A": "오답: exceptional는 형용사이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. clearly를 꾸미는 부사 exceptionally가 맞다.",
-              "B": "정답: clearly를 꾸미는 부사 exceptionally가 맞다.",
-              "C": "오답: exception는 명사이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. clearly를 꾸미는 부사 exceptionally가 맞다.",
-              "D": "오답: except는 선택지의 형태/뜻이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. clearly를 꾸미는 부사 exceptionally가 맞다."
+              "A": "오답: exact는 선택지의 형태/뜻이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. the same을 앞에서 꾸미는 부사 exactly가 필요하다. exactly the same은 토익식 빈출 조합이다.",
+              "B": "정답: the same을 앞에서 꾸미는 부사 exactly가 필요하다. exactly the same은 토익식 빈출 조합이다.",
+              "C": "오답: exactness는 명사이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. the same을 앞에서 꾸미는 부사 exactly가 필요하다. exactly the same은 토익식 빈출 조합이다.",
+              "D": "오답: exacted는 과거형 또는 과거분사이다. 여기서는 무엇을 꾸미는지에 맞는 형태가 필요하다. the same을 앞에서 꾸미는 부사 exactly가 필요하다. exactly the same은 토익식 빈출 조합이다."
             }
           },
           {
