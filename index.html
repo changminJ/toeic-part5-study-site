@@ -3,76 +3,70 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TOEIC Part 5 전체유형 풀이</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>TOEIC Part 5·6·7 공부 모음</title>
+  <style>
+    :root { --bg:#f6f7f9; --card:#fff; --line:#e3e7ee; --text:#1b1f27; --muted:#626c7d; --accent:#2563eb; --soft:#e8efff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:"Pretendard",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Malgun Gothic",sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+    header { padding:34px 20px 18px; text-align:center; }
+    .eyebrow { color:var(--accent); font-size:12px; font-weight:800; letter-spacing:1.5px; margin:0; }
+    h1 { margin:6px 0 4px; font-size:26px; }
+    header p.sub { margin:0; color:var(--muted); font-size:14px; }
+    main { max-width:760px; margin:0 auto; padding:10px 16px 40px; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    @media (max-width:560px){ .grid{ grid-template-columns:1fr; } h1{ font-size:22px; } }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px; display:flex; flex-direction:column; gap:8px; box-shadow:0 1px 3px rgba(20,30,50,.05),0 8px 20px rgba(20,30,50,.04); }
+    .card .tag { align-self:flex-start; font-size:11px; font-weight:800; color:var(--accent); background:var(--soft); padding:3px 9px; border-radius:999px; }
+    .card h2 { margin:2px 0 0; font-size:17px; }
+    .card p { margin:0; color:var(--muted); font-size:13px; flex:1; }
+    .links { display:flex; gap:8px; flex-wrap:wrap; margin-top:6px; }
+    .links a { text-decoration:none; font-size:14px; font-weight:700; padding:9px 14px; border-radius:10px; }
+    .links a.primary { background:var(--accent); color:#fff; }
+    .links a.ghost { background:transparent; color:var(--accent); border:1px solid var(--line); }
+    .links a:active { transform:translateY(1px); }
+    footer { text-align:center; color:var(--muted); font-size:12px; padding:8px 20px 30px; }
+  </style>
 </head>
 <body>
-  <header class="topbar">
-    <div>
-      <p class="eyebrow">TOEIC RC Part 5</p>
-      <h1>전체유형 풀이</h1>
-    </div>
-      <div class="stats" aria-live="polite">
-        <span id="statAnswered">0 풀이</span>
-        <span id="statCorrect">0 정답</span>
-        <span id="statWrong">0 오답</span>
-        <span id="statAccuracy">0%</span>
-      </div>
+  <header>
+    <p class="eyebrow">TOEIC RC · MOBILE</p>
+    <h1>Part 5·6·7 공부 모음</h1>
+    <p class="sub">실전 문제 · 유형 풀이 · 이론 · 전략 — 폰에서 바로</p>
   </header>
-
-  <main class="layout">
-    <aside class="sidebar">
-      <div class="sideSection">
-        <label for="modeSelect">풀이 모드</label>
-        <select id="modeSelect">
-          <option value="all">와다다 풀이</option>
-          <option value="random">랜덤 회차 30문항</option>
-          <option value="mistakes">오답노트</option>
-          <option value="unanswered">안 푼 문제만</option>
-        </select>
+  <main>
+    <div class="grid">
+      <div class="card">
+        <span class="tag">실전 200문제</span>
+        <h2>서아 Part 5 트레이닝</h2>
+        <p>서아쌤 1탄·2탄 200문항. 정답 + 보기별 해설, 오답노트.</p>
+        <div class="links"><a class="primary" href="./seoah-part5-training/">풀기 →</a></div>
       </div>
-      <div class="sideSection">
-        <label for="bankSelect">문항 난도</label>
-        <select id="bankSelect">
-          <option value="base">기초 구조형 30문항</option>
-          <option value="level2">실전 2단계 10문항</option>
-          <option value="level3">실전 3단계 10문항</option>
-        </select>
+      <div class="card">
+        <span class="tag">유형 풀이</span>
+        <h2>Part 5 전체유형 풀이</h2>
+        <p>15유형 × 난도별 문항. 와다다/랜덤회차/오답노트.</p>
+        <div class="links"><a class="primary" href="./toeic-part5-complete-site/">풀기 →</a></div>
       </div>
-      <div class="sideSection">
-        <button id="startRandom">새 랜덤 회차 뽑기</button>
-        <button id="retryRandom" class="secondary">이번 회차 처음부터</button>
-        <button id="clearRandom" class="danger">랜덤 기록 초기화</button>
-      </div>
-      <div class="sideSection">
-        <button id="resetModule" class="secondary">현재 유형 처음부터 다시 풀기</button>
-        <button id="resetAll" class="danger">전체 기록 초기화</button>
-      </div>
-      <nav id="moduleList" class="moduleList" aria-label="유형 선택"></nav>
-    </aside>
-
-    <section class="content">
-      <section class="studyPanel" id="studyPanel"></section>
-
-      <section class="questionToolbar">
-        <button id="prevQuestion" class="secondary">이전</button>
-        <div>
-          <span id="questionProgress"></span>
-          <span id="questionStatus"></span>
+      <div class="card">
+        <span class="tag">이론</span>
+        <h2>Part 5 15유형 이론</h2>
+        <p>품사~비교 + 가정법·분사·관계사 등 빈출 이론 총정리. 검색 가능.</p>
+        <div class="links">
+          <a class="primary" href="./toeic-part5-theory/">보기 →</a>
+          <a class="ghost" href="./toeic-part5-theory/TOEIC-Part5-15유형-이론정리.pdf">PDF</a>
         </div>
-        <button id="nextQuestion">다음</button>
-      </section>
-
-      <article class="questionCard">
-        <div class="questionMeta" id="questionMeta"></div>
-        <h2 id="questionText"></h2>
-        <div id="options" class="options"></div>
-        <div id="feedback" class="feedback hidden"></div>
-      </article>
-    </section>
+      </div>
+      <div class="card">
+        <span class="tag">전략</span>
+        <h2>Part 6·7 전략</h2>
+        <p>문맥시제·문장삽입·지문유형·연계·패러프레이징·시간배분.</p>
+        <div class="links">
+          <a class="primary" href="./toeic-part67-strategy/">보기 →</a>
+          <a class="ghost" href="./toeic-part67-strategy/TOEIC-Part6-7-전략정리.pdf">PDF</a>
+        </div>
+      </div>
+    </div>
   </main>
-
-  <script src="questions.js"></script>
-  <script src="app.js"></script>
+  <footer>풀이 기록은 사용하는 기기·브라우저에 저장됩니다.</footer>
 </body>
 </html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOEIC Part 5 · 15유형 이론 모아보기</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">TOEIC RC Part 5</p>
+      <h1>15유형 이론 모아보기</h1>
+    </div>
+    <div class="headControls">
+      <input id="filter" type="search" placeholder="이론·단어 검색 (예: because, 분사, 불가산)" autocomplete="off">
+      <button id="themeToggle" class="iconBtn" title="밝게/어둡게">🌙</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <p class="sideTitle">유형</p>
+      <nav id="toc" class="toc" aria-label="유형 목차"></nav>
+      <div class="sideActions">
+        <button id="expandAll" class="secondary">모두 펼치기</button>
+        <button id="collapseAll" class="secondary">모두 접기</button>
+      </div>
+      <p class="sourceNote">출처: 자체 제작 15유형 Part 5 학습 도구의 이론·암기·함정 정리. 문제 풀이는 <a href="../toeic-part5-complete-site/index.html">전체유형 풀이 사이트</a>, 실전 200문항은 <a href="../seoah-part5-training/index.html">서아 트레이닝</a>.</p>
+    </aside>
+
+    <section id="content" class="content"></section>
+  </main>
+
+  <button id="toTop" class="toTop" title="맨 위로">↑</button>
+
+  <script src="theory.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

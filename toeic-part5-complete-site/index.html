@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOEIC Part 5 전체유형 풀이</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">TOEIC RC Part 5</p>
+      <h1>전체유형 풀이</h1>
+    </div>
+      <div class="stats" aria-live="polite">
+        <span id="statAnswered">0 풀이</span>
+        <span id="statCorrect">0 정답</span>
+        <span id="statWrong">0 오답</span>
+        <span id="statAccuracy">0%</span>
+      </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sideSection">
+        <label for="modeSelect">풀이 모드</label>
+        <select id="modeSelect">
+          <option value="all">와다다 풀이</option>
+          <option value="random">랜덤 회차 30문항</option>
+          <option value="mistakes">오답노트</option>
+          <option value="unanswered">안 푼 문제만</option>
+        </select>
+      </div>
+      <div class="sideSection">
+        <label for="bankSelect">문항 난도</label>
+        <select id="bankSelect">
+          <option value="base">기초 구조형 30문항</option>
+          <option value="level2">실전 2단계 10문항</option>
+          <option value="level3">실전 3단계 10문항</option>
+        </select>
+      </div>
+      <div class="sideSection">
+        <button id="startRandom">새 랜덤 회차 뽑기</button>
+        <button id="retryRandom" class="secondary">이번 회차 처음부터</button>
+        <button id="clearRandom" class="danger">랜덤 기록 초기화</button>
+      </div>
+      <div class="sideSection">
+        <button id="resetModule" class="secondary">현재 유형 처음부터 다시 풀기</button>
+        <button id="resetAll" class="danger">전체 기록 초기화</button>
+      </div>
+      <nav id="moduleList" class="moduleList" aria-label="유형 선택"></nav>
+    </aside>
+
+    <section class="content">
+      <section class="studyPanel" id="studyPanel"></section>
+
+      <section class="questionToolbar">
+        <button id="prevQuestion" class="secondary">이전</button>
+        <div>
+          <span id="questionProgress"></span>
+          <span id="questionStatus"></span>
+        </div>
+        <button id="nextQuestion">다음</button>
+      </section>
+
+      <article class="questionCard">
+        <div class="questionMeta" id="questionMeta"></div>
+        <h2 id="questionText"></h2>
+        <div id="options" class="options"></div>
+        <div id="feedback" class="feedback hidden"></div>
+      </article>
+    </section>
+  </main>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

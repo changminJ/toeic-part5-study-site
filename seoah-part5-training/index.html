@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>서아PT Part 5 트레이닝 200문제</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">서아PT · TOEIC RC Part 5</p>
+      <h1>파트5 트레이닝 200문제</h1>
+    </div>
+    <div class="headControls">
+      <div class="stats" aria-live="polite">
+        <span id="statAnswered">0 풀이</span>
+        <span id="statCorrect">0 정답</span>
+        <span id="statWrong">0 오답</span>
+        <span id="statAccuracy">0%</span>
+      </div>
+      <button id="themeToggle" class="iconBtn" title="밝게/어둡게">🌙</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="sideSection">
+        <label for="modeSelect">풀이 모드</label>
+        <select id="modeSelect">
+          <option value="all">와다다 풀이 (전체)</option>
+          <option value="unanswered">안 푼 문제만</option>
+          <option value="mistakes">오답노트</option>
+        </select>
+      </div>
+      <div class="sideSection">
+        <label>세트 선택</label>
+        <nav id="moduleList" class="moduleList" aria-label="세트 선택"></nav>
+      </div>
+      <div class="sideSection">
+        <label class="rowLabel"><input type="checkbox" id="instantFeedback" checked> 답 고르면 해설 바로 보기</label>
+        <label class="rowLabel"><input type="checkbox" id="autoAdvance"> 정답 시 자동으로 다음</label>
+      </div>
+      <div class="sideSection">
+        <button id="resetModule" class="secondary">현재 세트 처음부터</button>
+        <button id="resetAll" class="danger">전체 기록 초기화</button>
+      </div>
+      <div class="sideSection sourceBox">
+        <p class="sourceTitle">해설 영상</p>
+        <a id="srcLink" href="#" target="_blank" rel="noopener">현재 세트 유튜브 해설 →</a>
+        <a href="../toeic-part5-theory/index.html">15유형 이론 모아보기 →</a>
+        <p class="sourceNote">정답·해설은 서아쌤 영상 풀이 + 자체 검수를 결합했습니다.</p>
+      </div>
+    </aside>
+
+    <section class="content">
+      <section class="questionToolbar">
+        <button id="prevQuestion" class="secondary">← 이전</button>
+        <div class="toolbarCenter">
+          <span id="questionProgress"></span>
+          <span id="questionStatus"></span>
+        </div>
+        <button id="nextQuestion">다음 →</button>
+      </section>
+
+      <article class="questionCard">
+        <div class="questionMeta" id="questionMeta"></div>
+        <p class="questionText" id="questionText"></p>
+        <div id="options" class="options"></div>
+        <div id="feedback" class="feedback hidden"></div>
+      </article>
+
+      <p class="hint">키보드: 1·2·3·4 = 보기 선택 · ← → = 이동 · F = 해설 토글</p>
+    </section>
+  </main>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

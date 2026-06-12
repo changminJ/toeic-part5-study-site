@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOEIC Part 6·7 전략 모아보기</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">TOEIC RC Part 6 · 7</p>
+      <h1>전략 모아보기</h1>
+    </div>
+    <div class="headControls">
+      <input id="filter" type="search" placeholder="전략·유형 검색 (예: 문장삽입, 연계, 패러프레이징)" autocomplete="off">
+      <button id="themeToggle" class="iconBtn" title="밝게/어둡게">🌙</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <p class="sideTitle">목차</p>
+      <nav id="toc" class="toc" aria-label="목차"></nav>
+      <div class="sideActions">
+        <button id="expandAll" class="secondary">모두 펼치기</button>
+        <button id="collapseAll" class="secondary">모두 접기</button>
+      </div>
+      <p class="sourceNote">출처: 자체 Part 6/7 공부법 정리 + 서아쌤 method. Part 5는 <a href="../toeic-part5-theory/index.html">15유형 이론</a>, 실전은 <a href="../seoah-part5-training/index.html">서아 트레이닝</a>.</p>
+    </aside>
+
+    <section id="content" class="content"></section>
+  </main>
+
+  <button id="toTop" class="toTop" title="맨 위로">↑</button>
+
+  <script src="strategy.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
