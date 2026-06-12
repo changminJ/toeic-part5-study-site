@@ -665,6 +665,27 @@ window.VOCAB_DATA = {
    "meaning": "적절한, 알맞은; 옳은",
    "forms": "the right person/time/decision; (부) 바로·정확히",
    "cat": "Part 5"
+  },
+  {
+   "id": "w95",
+   "term": "compensate for",
+   "meaning": "~을 보완하다, 벌충하다, 만회하다",
+   "forms": "compensate for the loss/delay; (명) compensation 보상",
+   "cat": "전치사"
+  },
+  {
+   "id": "w96",
+   "term": "diligently",
+   "meaning": "성실하게, 부지런히",
+   "forms": "work diligently; (형) diligent 성실한, (명) diligence 근면",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w97",
+   "term": "decidedly",
+   "meaning": "확실히, 분명히, 단연(단호하게)",
+   "forms": "decidedly better/different (cf. decisive 결정적인)",
+   "cat": "Part 5"
   }
  ]
 };
