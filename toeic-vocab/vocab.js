@@ -700,6 +700,27 @@ window.VOCAB_DATA = {
    "meaning": "매우 귀중한 (값 못 매길 만큼); in-이 부정 아님!",
    "forms": "invaluable advice/help; ≠가치없는(valueless/worthless), ≠취약한(vulnerable)",
    "cat": "혼동어"
+  },
+  {
+   "id": "w100",
+   "term": "milestone",
+   "meaning": "이정표; (비유) 중요한 단계·시점, 획기적 사건",
+   "forms": "reach/mark a milestone; an important milestone in ~",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w101",
+   "term": "consultation",
+   "meaning": "상담, 협의, 진찰",
+   "forms": "a consultation with ~ / consultation fee; (동) consult 상담·참고하다, (명) consultant",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w102",
+   "term": "tenant",
+   "meaning": "세입자, 임차인",
+   "forms": "tenants must pay rent / notify tenants; (반) landlord 집주인",
+   "cat": "Part 5"
   }
  ]
 };
