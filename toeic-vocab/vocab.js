@@ -651,6 +651,20 @@ window.VOCAB_DATA = {
    "meaning": "그 회사는 대량 주문에 대해 경쟁력 있는 가격을 제공한다.",
    "forms": "offer 제공하다 / competitive prices 경쟁력 있는 가격 / bulk orders 대량 주문",
    "cat": "예문"
+  },
+  {
+   "id": "w93",
+   "term": "so far",
+   "meaning": "지금까지, 여태까지",
+   "forms": "so far this year; 현재완료와 자주(have done ~ so far)",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w94",
+   "term": "right",
+   "meaning": "적절한, 알맞은; 옳은",
+   "forms": "the right person/time/decision; (부) 바로·정확히",
+   "cat": "Part 5"
   }
  ]
 };
