@@ -686,6 +686,20 @@ window.VOCAB_DATA = {
    "meaning": "확실히, 분명히, 단연(단호하게)",
    "forms": "decidedly better/different (cf. decisive 결정적인)",
    "cat": "Part 5"
+  },
+  {
+   "id": "w98",
+   "term": "valuable",
+   "meaning": "소중한, 귀중한, 가치 있는",
+   "forms": "valuable experience/information/asset; (명) valuables 귀중품",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w99",
+   "term": "invaluable",
+   "meaning": "매우 귀중한 (값 못 매길 만큼); in-이 부정 아님!",
+   "forms": "invaluable advice/help; ≠가치없는(valueless/worthless), ≠취약한(vulnerable)",
+   "cat": "혼동어"
   }
  ]
 };
