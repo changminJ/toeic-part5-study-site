@@ -1132,13 +1132,23 @@ window.TOEIC_THEORY = {
     ],
     [
      "혼동 형용사쌍",
-     "의미 구분",
+     "의미·명사 궁합",
      "respective(각각의)/respectful(공손한)/respectable(존경할 만한), successful(성공한)/successive(연속의), confident(자신있는)/confidential(기밀의), comprehensive(포괄적)/comprehensible(이해가능)"
     ],
     [
      "혼동 전달/자타동사",
      "목적어 구조",
      "inform/notify/remind+사람+of/that vs announce+사물+to사람, ensure(that)/assure(사람+that)/insure(보험), rise·arise(자동)/raise(타동)"
+    ],
+    [
+     "보장·보험",
+     "목적어 구조",
+     "ensure safety / assure customers / insure property"
+    ],
+    [
+     "확장·연장·보존",
+     "목적어 명사 차이",
+     "extend a deadline / expand a business / reserve a room / preserve records"
     ]
    ],
    "timeMarkers": null,
@@ -1147,35 +1157,39 @@ window.TOEIC_THEORY = {
     "considerable=상당한, considerate=사려 깊은",
     "economic=경제의, economical=절약되는",
     "affect는 동사, effect는 보통 명사로 자주 나온다.",
-    "attribute A to B = A를 B의 덕분/탓으로 (to 필수), contribute to B = B에 기여하다(자동사)",
-    "adapt to(적응) / adopt + 목적어(채택) / adept at·in(능숙한, 형용사)",
-    "comprise = 직접 목적어(of 없음), consist of, be composed of, be made up of",
-    "present 제시/발표 vs represent 대표/나타내다",
-    "respective=각각의(보통 복수명사 앞), respectful=예의바른, respectable=존경할 만한/상당한",
+    "attribute A to B = A를 B의 덕분/탓으로 돌리다, contribute to B = B에 기여하다",
+    "adapt to=적응하다, adopt=채택하다, adept at/in=능숙한",
+    "comprise=~로 구성되다/포함하다(of 없음), consist of, be composed of",
+    "present=제시/발표하다, represent=대표하다/나타내다",
+    "respective=각각의, respectful=공손한, respectable=존경할 만한/상당한",
     "successful=성공한, successive=잇따른/연속의(successive days/years)",
-    "confident=자신있는(in/of), confidential=기밀의(confidential information)",
-    "sensible=분별있는/현명한, sensitive=민감한 / comprehensive=종합적, comprehensible=이해가능",
+    "confident=자신 있는, confidential=기밀의(confidential information)",
+    "sensible=분별 있는/현명한, sensitive=민감한 / comprehensive=종합적, comprehensible=이해 가능한",
     "inform/notify/remind/assure + 사람목적어 (+ of 명사 / that S V)",
-    "announce/explain/describe/mention + 사물 (사람은 to로): announce A to B",
-    "ensure=보장하다(목적어/that절), assure=사람을 안심시키다(사람+that), insure=보험에 들다",
-    "rise(자/오르다, rose-risen), arise(자/생기다, arose-arisen), raise(타/올리다, raised)"
+    "announce/explain/describe/mention + 사물 + to 사람",
+    "ensure=보장하다, assure=사람을 안심시키다/확언하다, insure=보험에 들다",
+    "extend=기간·마감·계약을 연장하다, expand=사업·시설·팀을 확대하다",
+    "reserve=예약/확보하다, preserve=보존하다, observe=관찰하다/준수하다",
+    "review=검토하다, revise=수정하다, resume=재개하다",
+    "replace=교체하다, relocate=이전하다, release=발표/출시/공개하다, retain=유지/보관하다",
+    "rise(자동사, 오르다), arise(자동사, 발생하다), raise(타동사, 올리다)"
    ],
    "traps": [
     "뜻이 비슷해도 목적어와 같이 붙는 동사가 다르다.",
     "한국어 번역 하나로 외우지 말고 영어 덩어리로 외운다.",
     "품사가 맞는 보기끼리는 뒤 명사와의 자연스러움이 중요하다.",
-    "contribute는 자동사라 contribute the project (X) -> contribute to (O).",
-    "comprise of는 오답. comprise는 of 없이, consist는 of와 함께.",
-    "adopt(채택)와 adapt(적응)를 형태가 비슷해 바꿔 고르면 오답.",
-    "attribute는 to 없이 쓰면 오답(attribute the delay weather (X)).",
-    "their respectful offices (X) -> respective offices (각자의).",
-    "successive를 successful로 착각해 '성공한 해'로 풀면 오답.",
-    "confidential을 confident로 고르면 기밀 문맥에서 오답.",
-    "informative(유익한, 사물)와 informed(정보에 밝은, 사람/결정)를 바꿔 고르지 말 것: an informed decision / an informative session.",
-    "announce me the news (X) -> announce the news to me (O), 사람 직접목적어 불가.",
-    "inform the change (X) -> inform 사람 of the change (O).",
-    "assure that만 쓰고 사람을 빼면 어색(assure you that가 기본).",
-    "issues were raised는 가능하나 issues arose를 issues were arisen으로 쓰면 오답(arise 자동사)."
+    "contribute는 자동사라 contribute the project (X), contribute to the project (O).",
+    "comprise of는 오답이다. comprise는 of 없이, consist는 of와 함께 쓴다.",
+    "adopt(채택)와 adapt(적응)를 형태가 비슷하다고 바꿔 고르면 오답.",
+    "their respectful offices가 아니라 respective offices가 '각자의 사무실'이다.",
+    "successive years는 연속된 해, successful years는 성공적인 해라서 문맥이 다르다.",
+    "confidential information에서 confident를 고르면 '자신 있는 정보'가 되어 오답.",
+    "informative는 유익한(사물), informed는 정보에 밝은/충분히 알고 내린(사람·결정)이다: an informed decision / an informative session.",
+    "announce me the news (X), announce the news to me (O).",
+    "inform the change (X), inform 사람 of the change (O).",
+    "assure는 보통 사람 목적어가 필요하고, ensure는 결과·안전·절차를 보장한다.",
+    "extend the deadline은 가능하지만 expand the deadline은 보통 오답이다.",
+    "issues were raised는 가능하지만 issues were arisen은 오답이다. arise는 자동사라 수동태로 쓰지 않는다."
    ]
   },
   {
@@ -1237,6 +1251,11 @@ window.TOEIC_THEORY = {
      "during vs for",
      "during+특정기간명사 / for+숫자기간",
      "during the seminar / for two hours"
+    ],
+    [
+     "전치사 숙어 느낌 묶음",
+     "to=전념·적용·연결 / for=목적·자격·이유 / with=동반·상태 / in=몰두·참여",
+     "committed to · responsible for · familiar with · interested in"
     ]
    ],
    "timeMarkers": null,
@@ -1254,7 +1273,11 @@ window.TOEIC_THEORY = {
     "지속 동사면 until, 완료(1회성) 동사면 by",
     "during + 특정 기간을 가리키는 명사(the holiday, the meeting, the conference)",
     "for + 숫자·수치 기간(for two hours, for ten years)",
-    "둘 다 전치사라 뒤에 절(S V)은 못 옴 -> 절이면 while/since"
+    "둘 다 전치사라 뒤에 절(S V)은 못 옴 -> 절이면 while/since",
+    "to(~로 향함/연결): related·dedicated·devoted·committed·assigned·exposed to, adhere to, apply to, respond to, response·solution·access·subject to",
+    "for(목적·자격·이유): responsible·eligible·known·renowned·used for, apply for, reason·demand for, in preparation for",
+    "with(동반·상태·도구): familiar·satisfied·pleased·associated·concerned·equipped·faced with, comply with, in accordance with",
+    "in(몰두·참여): interested·engaged·involved·absorbed in, increase in / of(암기): aware of, in charge of, on behalf of, with regard to"
    ],
    "traps": [
     "to가 전치사인 표현 뒤에는 명사/동명사가 온다.",
@@ -1267,7 +1290,9 @@ window.TOEIC_THEORY = {
     "submit until / complete until은 오답(1회성 완료는 by).",
     "remain open by는 오답(지속 상태는 until).",
     "for two hours를 during two hours로 쓰면 오답.",
-    "숫자 기간이라고 무조건 for가 아니라 '~동안' 해석 성립이 전제."
+    "숫자 기간이라고 무조건 for가 아니라 '~동안' 해석 성립이 전제.",
+    "뜻을 외우지 말고 느낌으로: 전념·적용=to, 목적·자격=for, 동반·상태=with, 몰두·참여=in.",
+    "같은 동사도 전치사로 뜻이 갈린다: apply for(지원) vs apply to(적용), agree with(사람) vs agree to(제안) vs agree on(사항)."
    ]
   },
   {

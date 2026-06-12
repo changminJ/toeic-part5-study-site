@@ -546,6 +546,48 @@ window.VOCAB_DATA = {
    "meaning": "~에 몰두하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
+  },
+  {
+   "id": "w78",
+   "term": "comply",
+   "meaning": "(with) ~을 준수하다, 따르다, 응하다",
+   "forms": "comply with regulations/the policy; (명) compliance 준수, (형) compliant",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w79",
+   "term": "apply for",
+   "meaning": "~에 지원하다, 신청하다",
+   "forms": "apply for a job/position/loan",
+   "cat": "전치사"
+  },
+  {
+   "id": "w80",
+   "term": "apply to",
+   "meaning": "~에 적용되다; ~에 신청하다",
+   "forms": "the rule applies to all / apply to a school",
+   "cat": "전치사"
+  },
+  {
+   "id": "w81",
+   "term": "in charge of",
+   "meaning": "~을 담당하는, 책임지는",
+   "forms": "be in charge of the project / the person in charge",
+   "cat": "전치사"
+  },
+  {
+   "id": "w82",
+   "term": "be subject to",
+   "meaning": "~의 대상이 되는, ~에 영향을 받기 쉬운, ~에 따르는",
+   "forms": "subject to change/approval/availability/fees",
+   "cat": "전치사"
+  },
+  {
+   "id": "w83",
+   "term": "adhere to",
+   "meaning": "~을 지키다, 준수하다, 고수하다",
+   "forms": "adhere to the rules/guidelines/schedule; (명) adherence",
+   "cat": "전치사"
   }
  ]
 };

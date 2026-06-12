@@ -11849,6 +11849,11 @@ window.TOEIC_PART5_DATA = {
           "during vs for",
           "during+특정기간명사 / for+숫자기간",
           "during the seminar / for two hours"
+        ],
+        [
+          "전치사 숙어 느낌 묶음",
+          "to=전념·적용·연결 / for=목적·자격·이유 / with=동반·상태 / in=몰두·참여",
+          "committed to · responsible for · familiar with · interested in"
         ]
       ],
       "timeMarkers": [],
@@ -11866,7 +11871,11 @@ window.TOEIC_PART5_DATA = {
         "지속 동사면 until, 완료(1회성) 동사면 by",
         "during + 특정 기간을 가리키는 명사(the holiday, the meeting, the conference)",
         "for + 숫자·수치 기간(for two hours, for ten years)",
-        "둘 다 전치사라 뒤에 절(S V)은 못 옴 -> 절이면 while/since"
+        "둘 다 전치사라 뒤에 절(S V)은 못 옴 -> 절이면 while/since",
+        "to(~로 향함/연결): related·dedicated·devoted·committed·assigned·exposed to, adhere to, apply to, respond to, response·solution·access·subject to",
+        "for(목적·자격·이유): responsible·eligible·known·renowned·used for, apply for, reason·demand for, in preparation for",
+        "with(동반·상태·도구): familiar·satisfied·pleased·associated·concerned·equipped·faced with, comply with, in accordance with",
+        "in(몰두·참여): interested·engaged·involved·absorbed in, increase in / of(암기): aware of, in charge of, on behalf of, with regard to"
       ],
       "traps": [
         "to가 전치사인 표현 뒤에는 명사/동명사가 온다.",
@@ -11879,7 +11888,9 @@ window.TOEIC_PART5_DATA = {
         "submit until / complete until은 오답(1회성 완료는 by).",
         "remain open by는 오답(지속 상태는 until).",
         "for two hours를 during two hours로 쓰면 오답.",
-        "숫자 기간이라고 무조건 for가 아니라 '~동안' 해석 성립이 전제."
+        "숫자 기간이라고 무조건 for가 아니라 '~동안' 해석 성립이 전제.",
+        "뜻을 외우지 말고 느낌으로: 전념·적용=to, 목적·자격=for, 동반·상태=with, 몰두·참여=in.",
+        "같은 동사도 전치사로 뜻이 갈린다: apply for(지원) vs apply to(적용), agree with(사람) vs agree to(제안) vs agree on(사항)."
       ],
       "questions": [
         {
