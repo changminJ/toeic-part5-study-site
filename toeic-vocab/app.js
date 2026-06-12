@@ -3,7 +3,7 @@ const WORDS = DATA.words;
 const byId = new Map(WORDS.map((w) => [w.id, w]));
 const KNOWN_KEY = "vocabKnown";
 const THEME_KEY = "vocabTheme";
-const CATS = ["전체", "Part 5", "전치사", "혼동어", "LC"];
+const CATS = ["전체", "Part 5", "전치사", "예문", "혼동어", "LC"];
 
 const state = {
   mode: "card",

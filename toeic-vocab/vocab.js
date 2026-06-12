@@ -588,6 +588,69 @@ window.VOCAB_DATA = {
    "meaning": "~을 지키다, 준수하다, 고수하다",
    "forms": "adhere to the rules/guidelines/schedule; (명) adherence",
    "cat": "전치사"
+  },
+  {
+   "id": "w84",
+   "term": "make arrangements for",
+   "meaning": "~을 준비하다, 마련하다, 주선하다",
+   "forms": "make arrangements for the trip/meeting; arrange for ~",
+   "cat": "전치사"
+  },
+  {
+   "id": "w85",
+   "term": "take effect",
+   "meaning": "효력이 발생하다, 시행·발효되다 (effect=명사)",
+   "forms": "the policy takes effect on May 1; in effect / come into effect",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w86",
+   "term": "meet a deadline",
+   "meaning": "마감기한을 맞추다, 마감일 안에 끝내다",
+   "forms": "meet the deadline; meet requirements/standards/demand (meet=충족하다)",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w87",
+   "term": "The manager submitted a revised proposal to the board.",
+   "meaning": "매니저는 수정된 제안서를 이사회에 제출했다.",
+   "forms": "submit 제출 / revised 수정된 / proposal 제안서 / the board 이사회",
+   "cat": "예문"
+  },
+  {
+   "id": "w88",
+   "term": "the accounting department",
+   "meaning": "회계부, 경리과",
+   "forms": "accounting 회계/경리; accounting department/firm/period",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w89",
+   "term": "receptionist",
+   "meaning": "접수원, 안내 데스크 직원",
+   "forms": "the receptionist at the front desk; reception 접수처/환영회",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w90",
+   "term": "The company experienced a significant increase in sales.",
+   "meaning": "그 회사는 매출의 상당한 증가를 경험했다.",
+   "forms": "experience 경험하다 / significant 상당한 / increase in sales 매출 증가",
+   "cat": "예문"
+  },
+  {
+   "id": "w91",
+   "term": "an increase in sales",
+   "meaning": "매출 증가",
+   "forms": "a/an increase in + 명사(증가); a decrease/decline in",
+   "cat": "전치사"
+  },
+  {
+   "id": "w92",
+   "term": "The company offers competitive prices on bulk orders.",
+   "meaning": "그 회사는 대량 주문에 대해 경쟁력 있는 가격을 제공한다.",
+   "forms": "offer 제공하다 / competitive prices 경쟁력 있는 가격 / bulk orders 대량 주문",
+   "cat": "예문"
   }
  ]
 };

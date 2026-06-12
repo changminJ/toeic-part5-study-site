@@ -72,6 +72,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 보기가 같은 단어 변형이면 해석 말고 빈칸 '자리'만 봐라.",
         "명사 어미: -tion, -ment, -ness, -cy, -ity, -ance, -ence",
         "형용사 어미: -al, -ful, -ive, -able, -ous, -ent, -ant",
         "부사 어미: 보통 -ly, 단 friendly/timely/costly/orderly는 형용사로 자주 나온다.",
@@ -1291,6 +1292,7 @@ window.TOEIC_PART5_DATA = {
         ]
       ],
       "memorize": [
+        "[한 방] 동사 문제는 수일치 → 태(목적어 유무) → 시제(시간단서) 순서로 하나씩.",
         "each/every + 단수명사 + 단수동사",
         "The number of + 복수명사 + 단수동사 / A number of + 복수명사 + 복수동사",
         "since/for/over the past -> 현재완료 가능성이 높다.",
@@ -2504,6 +2506,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] to/-ing는 앞 동사가 결정(decide to/avoid -ing), 분사는 꾸밈받는 명사가 하면 -ing·당하면 p.p.",
         "to V: decide, plan, agree, expect, offer, fail, manage, hope",
         "-ing: avoid, consider, finish, enjoy, mind, postpone, suggest, recommend",
         "to가 전치사인 표현: look forward to -ing, be committed to -ing, be accustomed to -ing",
@@ -3689,6 +3692,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 대명사는 받는 명사부터 찾아 수·격을 맞춰라. 빼도 문장 완전하면 재귀(강조).",
         "its는 소유격, it's는 it is/it has의 축약형이다.",
         "another + 단수명사 / other + 복수명사 / others 단독",
         "each other는 서로, by oneself는 혼자서.",
@@ -4844,6 +4848,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 전치사/접속사/접속부사는 뜻 말고 뒤 구조: 명사구=전치사, 절=접속사, 완전문장 둘 연결=접속부사.",
         "during + 명사 / while + 주어동사",
         "before/after는 명사, 동명사, 절 모두 가능하다.",
         "at + 시각, on + 요일/날짜, in + 월/연도/기간.",
@@ -6022,6 +6027,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 관계사는 뒤 문장이 완전하면 관계부사(where/when), 불완전(주어·목적어 빠짐)이면 관계대명사.",
         "관계대명사 뒤는 불완전한 문장인 경우가 많다.",
         "관계부사 where/when 뒤는 완전한 문장이다.",
         "where = in/at/on which, when = on/in/during which, why = for which.",
@@ -7194,6 +7200,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 명사절은 그 절이 문장에서 명사 자리(주어·목적어·보어)에 통째로 들어가는지를 본다.",
         "that + 완전절: The report shows that sales increased.",
         "whether + 완전절: We must decide whether the event will continue.",
         "what + 불완전절: Please send what you prepared.",
@@ -8341,6 +8348,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] than 보이면 비교급, the+최상급, as ~ as=원급 — 짝 신호부터 잡아라.",
         "as soon as possible, as carefully as possible",
         "more/less + 긴 형용사, -er + 짧은 형용사",
         "by far the + 최상급",
@@ -9515,6 +9523,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 셀 수 있나로 가른다: many/few(가산) vs much/little(불가산). 'of 뒤 명사'에 수일치.",
         "불가산 빈출: information, equipment, furniture, advice, news, luggage, merchandise",
         "복수 가산 빈출: employees, customers, applicants, items, documents",
         "amount는 불가산명사, number는 복수 가산명사와 잘 붙는다.",
@@ -10693,6 +10702,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 어휘는 collocation(자주 붙는 짝)으로 풀고, 모르면 오래 잡지 마라.",
         "complimentary=무료의, complementary=보완적인",
         "considerable=상당한, considerate=사려 깊은",
         "economic=경제의, economical=절약되는",
@@ -11858,6 +11868,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 전치사 숙어는 느낌으로: 전념·적용→to, 목적·자격→for, 동반·상태→with, 몰두·참여→in.",
         "be responsible for, be eligible for, be aware of, be familiar with, be satisfied with",
         "access to, response to, solution to, reason for, demand for, increase in",
         "in advance, on time, under warranty, at no extra charge, within walking distance",
@@ -12994,6 +13005,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 연어는 자연스러운 짝(make a decision, meet a deadline). 한국어 직역 금지.",
         "make: make a decision, make arrangements, make a reservation, make a request",
         "take: take place, take effect, take responsibility, take advantage of, take measures",
         "meet/reach/hold/conduct/submit/place/process/confirm/resolve/address/launch를 명사와 묶어 외운다.",
@@ -14163,6 +14175,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 부사 위치는 '빼보기': 빼도 문장 완전하면 부사, 빈칸 뒤가 명사면 형용사.",
         "has recently p.p., will probably V, can easily V",
         "very/quite/rather/fairly + 형용사/부사",
         "뜻: very 매우, extremely 대단히, quite 꽤/상당히, rather 꽤/다소, fairly 꽤/어느 정도, pretty 꽤, too 너무, so 매우/그래서, enough 충분히.",
@@ -15320,6 +15333,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 빈칸 뒤 목적어가 바로 오면 타동사, 전치사가 끼면 자동사. 자동사는 수동태 불가.",
         "수동태 불가 자동사: happen, occur, arrive, rise, fall, remain, exist, disappear, take place",
         "전치사 없이 목적어 받는 타동사: discuss, attend, enter, reach, contact, answer, approach, resemble",
         "전치사가 필요한 자동사: respond to, listen to, wait for, depend on, participate in, comply with",
@@ -16450,6 +16464,7 @@ window.TOEIC_PART5_DATA = {
       ],
       "timeMarkers": [],
       "memorize": [
+        "[한 방] 뜻이 맞아도 자리·수일치·태가 틀리면 오답 — 함정은 의미가 아니라 형태다.",
         "be likely to, be able to, be supposed to, be scheduled to, be expected to",
         "prevent A from -ing, prohibit A from -ing, keep A from -ing",
         "both A and B, either A or B, neither A nor B, not only A but also B",
