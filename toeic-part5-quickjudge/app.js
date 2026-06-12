@@ -11,6 +11,7 @@
   };
   var THEME_KEY = "quickjudgeTheme";
   var STATS_KEY = "quickjudgeStats";
+  var AUTO_KEY = "quickjudgeAuto";
 
   var ALL = (window.QUICKJUDGE && window.QUICKJUDGE.items) ? window.QUICKJUDGE.items : [];
 
@@ -22,12 +23,14 @@
   var locked = false;      // answered current?
   var qStart = 0;          // performance.now() at question show
   var advTimer = null;
+  var autoAdvance = true;
 
   var stats = { attempts: 0, correct: 0, streak: 0, bestStreak: 0, totalTime: 0 };
 
   // ---- dom ----
   var el = {
     themeToggle: document.getElementById("themeToggle"),
+    autoBtn: document.getElementById("autoBtn"),
     modeRow: document.getElementById("modeRow"),
     shuffleBtn: document.getElementById("shuffleBtn"),
     restartBtn: document.getElementById("restartBtn"),
@@ -81,6 +84,18 @@
     var t = (document.documentElement.dataset.theme === "dark") ? "light" : "dark";
     applyTheme(t);
     try { localStorage.setItem(THEME_KEY, t); } catch (e) {}
+  });
+
+  // ---- auto-advance toggle ----
+  function renderAutoBtn() {
+    el.autoBtn.textContent = autoAdvance ? "⏩ 자동넘김 ON" : "⏸ 자동넘김 OFF";
+    el.autoBtn.classList.toggle("on", autoAdvance);
+  }
+  try { autoAdvance = localStorage.getItem(AUTO_KEY) !== "0"; } catch (e) {}
+  el.autoBtn.addEventListener("click", function () {
+    autoAdvance = !autoAdvance;
+    try { localStorage.setItem(AUTO_KEY, autoAdvance ? "1" : "0"); } catch (e) {}
+    renderAutoBtn();
   });
 
   // ---- stats persistence ----
@@ -218,9 +233,9 @@
 
     renderStats();
 
-    // auto-advance
+    // auto-advance (toggle)
     if (advTimer) clearTimeout(advTimer);
-    advTimer = setTimeout(next, isRight ? 700 : 1600);
+    if (autoAdvance) advTimer = setTimeout(next, isRight ? 700 : 1600);
   }
 
   function next() {
@@ -286,6 +301,7 @@
 
   // ---- boot ----
   initTheme();
+  renderAutoBtn();
   loadStats();
   stats.streak = 0;
   buildQueue();
