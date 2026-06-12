@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOEIC Part 5 · 보기 4갈래 즉결</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a href="../" class="homeBtn">🏠 메인</a>
+    <div class="titleWrap">
+      <p class="eyebrow">TOEIC Part 5</p>
+      <h1>보기 4갈래 즉결</h1>
+    </div>
+    <button id="themeToggle" class="iconBtn" aria-label="테마 전환">🌙</button>
+  </header>
+
+  <main class="drill">
+    <section class="controls">
+      <div class="segRow" id="modeRow">
+        <button class="seg active" data-mode="all">전체</button>
+        <button class="seg" data-mode="1">1탄</button>
+        <button class="seg" data-mode="2">2탄</button>
+      </div>
+      <div class="ctrlActions">
+        <button class="secondary" id="shuffleBtn">🔀 셔플</button>
+        <button class="secondary" id="restartBtn">↺ 처음부터</button>
+      </div>
+    </section>
+
+    <section class="statsBar" id="statsBar">
+      <div class="stat"><span class="statLabel">연속</span><span class="statVal" id="statStreak">0</span></div>
+      <div class="stat"><span class="statLabel">정확도</span><span class="statVal" id="statAcc">—</span></div>
+      <div class="stat"><span class="statLabel">평균</span><span class="statVal" id="statTime">—</span></div>
+      <div class="stat"><span class="statLabel">진행</span><span class="statVal" id="statProg">0 / 0</span></div>
+    </section>
+    <p class="goalHint">⏱ 목표 3초 이내 · 해석 말고 <b>보기 모양</b>으로 즉결</p>
+
+    <section class="qcard" id="qcard">
+      <div class="qmeta">
+        <span class="badge" id="qBadge">1탄 1번</span>
+        <span class="dist" id="distLine"></span>
+      </div>
+      <p class="stem" id="stem"></p>
+      <div class="options" id="options"></div>
+    </section>
+
+    <section class="buckets" id="buckets">
+      <button class="bk" data-bucket="어형변화"><span class="bkKey">1</span><span class="bkName">어형변화</span><span class="bkSub">품사 자리</span></button>
+      <button class="bk" data-bucket="동사형태"><span class="bkKey">2</span><span class="bkName">동사형태</span><span class="bkSub">수·태·시제</span></button>
+      <button class="bk" data-bucket="연결어"><span class="bkKey">3</span><span class="bkName">연결어</span><span class="bkSub">뒤 구조</span></button>
+      <button class="bk" data-bucket="어휘"><span class="bkKey">4</span><span class="bkName">어휘</span><span class="bkSub">문맥</span></button>
+    </section>
+
+    <section class="feedback hidden" id="feedback" aria-live="polite">
+      <div class="fbHead" id="fbHead"></div>
+      <div class="fbTip" id="fbTip"></div>
+      <div class="fbAnswer" id="fbAnswer"></div>
+      <button class="nextBtn" id="nextBtn">다음 →</button>
+    </section>
+
+    <section class="done hidden" id="done">
+      <h2>한 세트 끝! 🎉</h2>
+      <p id="doneSummary"></p>
+      <button class="nextBtn" id="doneRestart">다시 처음부터</button>
+    </section>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
