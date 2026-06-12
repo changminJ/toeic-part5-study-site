@@ -457,3 +457,10 @@ document.addEventListener("keydown", (event) => {
 });
 
 render();
+
+(function(){
+  var K="toeicPart5CompleteTheme", b=document.getElementById("themeToggle");
+  function setTheme(x){document.documentElement.dataset.theme=x; if(b)b.textContent=x==="dark"?"☀️":"🌙"; localStorage.setItem(K,x);}
+  if(b)b.addEventListener("click",function(){setTheme(document.documentElement.dataset.theme==="dark"?"light":"dark");});
+  setTheme(localStorage.getItem(K)||"light");
+})();

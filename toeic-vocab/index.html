@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOEIC 단어 암기</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="../" title="메인으로" class="homeBtn">🏠 메인</a>
+    <div>
+      <p class="eyebrow">TOEIC · VOCAB</p>
+      <h1>단어 암기</h1>
+    </div>
+    <div class="headControls">
+      <span id="stat" class="statPill">0 / 0</span>
+      <button id="themeToggle" class="iconBtn" title="밝게/어둡게">🌙</button>
+    </div>
+  </header>
+
+  <main class="vmain">
+    <div class="modeTabs" id="modeTabs">
+      <button data-mode="card" class="active">카드 넘기기</button>
+      <button data-mode="quiz">퀴즈</button>
+      <button data-mode="review">안 외운 것</button>
+    </div>
+    <div class="chips" id="chips"></div>
+
+    <section id="cardView" class="cardView">
+      <div class="flash" id="flash">
+        <div class="flashInner" id="flashInner">
+          <div class="flashFace flashFront"><span class="cat" id="cFront"></span><div class="term" id="term"></div><p class="tapHint">탭하면 뜻 보기</p></div>
+          <div class="flashFace flashBack"><div class="meaning" id="meaning"></div><div class="forms" id="forms"></div></div>
+        </div>
+      </div>
+      <div class="cardCtrls">
+        <button id="prev" class="secondary">← 이전</button>
+        <button id="shuffle" class="secondary">🔀 셔플</button>
+        <button id="next" class="secondary">다음 →</button>
+      </div>
+      <div class="knowCtrls">
+        <button id="dontKnow" class="danger">몰라</button>
+        <button id="know" class="primary">알아 ✓</button>
+      </div>
+      <p class="progress" id="progress"></p>
+    </section>
+
+    <section id="quizView" class="quizView hidden">
+      <p class="quizQ" id="quizQ"></p>
+      <div class="quizOpts" id="quizOpts"></div>
+      <p class="quizFb" id="quizFb"></p>
+      <p class="progress" id="quizProg"></p>
+    </section>
+  </main>
+
+  <script src="vocab.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

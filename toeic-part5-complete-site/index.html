@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,15 +8,19 @@
 </head>
 <body>
   <header class="topbar">
+    <a href="../" title="메인으로" class="homeBtn" style="text-decoration:none;font-weight:700;font-size:13px;padding:8px 13px;border-radius:999px;border:1px solid rgba(128,128,128,.35);color:inherit;white-space:nowrap;align-self:center">🏠 메인</a>
     <div>
       <p class="eyebrow">TOEIC RC Part 5</p>
       <h1>전체유형 풀이</h1>
     </div>
-      <div class="stats" aria-live="polite">
-        <span id="statAnswered">0 풀이</span>
-        <span id="statCorrect">0 정답</span>
-        <span id="statWrong">0 오답</span>
-        <span id="statAccuracy">0%</span>
+      <div class="headControls">
+        <div class="stats" aria-live="polite">
+          <span id="statAnswered">0 풀이</span>
+          <span id="statCorrect">0 정답</span>
+          <span id="statWrong">0 오답</span>
+          <span id="statAccuracy">0%</span>
+        </div>
+        <button id="themeToggle" class="iconBtn" title="밝게/어둡게">🌙</button>
       </div>
   </header>
 
