@@ -721,6 +721,20 @@ window.VOCAB_DATA = {
    "meaning": "세입자, 임차인",
    "forms": "tenants must pay rent / notify tenants; (반) landlord 집주인",
    "cat": "Part 5"
+  },
+  {
+   "id": "w103",
+   "term": "specification",
+   "meaning": "사양, 명세, 규격",
+   "forms": "product specifications(specs); (동) specify 명시하다, (형) specific 구체적인",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w104",
+   "term": "major renovations",
+   "meaning": "대대적인 보수공사",
+   "forms": "undergo/be closed for major renovations; renovate 개조하다, renovation 보수",
+   "cat": "Part 5"
   }
  ]
 };
