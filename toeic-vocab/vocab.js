@@ -924,6 +924,13 @@ window.VOCAB_DATA = {
    "meaning": "그 목적을 위해, 그러기 위해",
    "forms": "앞 문장 목적 받아 '그러려고' (= for that purpose)",
    "cat": "전치사"
+  },
+  {
+   "id": "w132",
+   "term": "new staff",
+   "meaning": "신입사원, 신입 직원",
+   "forms": "orientation for new staff; new recruit/hire/employee",
+   "cat": "Part 5"
   }
  ]
 };
