@@ -938,6 +938,20 @@ window.VOCAB_DATA = {
    "meaning": "(장소의) 분위기, 정취",
    "forms": "a cozy/relaxing ambience; = atmosphere",
    "cat": "Part 5"
+  },
+  {
+   "id": "w134",
+   "term": "execute",
+   "meaning": "실행하다, 수행하다; (계약) 체결하다",
+   "forms": "execute a plan/strategy/contract; (명) execution 실행",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w135",
+   "term": "executive",
+   "meaning": "임원, 경영진; 경영의",
+   "forms": "chief executive / executive director / the executive board",
+   "cat": "Part 5"
   }
  ]
 };
