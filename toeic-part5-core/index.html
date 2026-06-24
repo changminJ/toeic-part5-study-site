@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOEIC Part 5 핵심 ver</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --line: #e1e6ef;
+      --text: #18202d;
+      --muted: #626d7c;
+      --accent: #2563eb;
+      --accent2: #0f766e;
+      --soft: #e8efff;
+      --warn: #fff7ed;
+      --warnLine: #fed7aa;
+      --shadow: 0 1px 3px rgba(20, 30, 50, 0.06), 0 8px 24px rgba(20, 30, 50, 0.05);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Malgun Gothic", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.58;
+    }
+    a { color: inherit; }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 12px 18px;
+      background: rgba(255, 255, 255, 0.94);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(10px);
+    }
+    .home {
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--accent);
+      background: var(--soft);
+      border: 1px solid #cddcff;
+      border-radius: 999px;
+      padding: 8px 12px;
+      white-space: nowrap;
+    }
+    .topLinks { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .topLinks a {
+      text-decoration: none;
+      font-size: 13px;
+      color: var(--muted);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: #fff;
+    }
+    header {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 34px 18px 18px;
+    }
+    .eyebrow {
+      margin: 0 0 6px;
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: 1.4px;
+      color: var(--accent);
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(25px, 5vw, 38px);
+      line-height: 1.16;
+      letter-spacing: 0;
+    }
+    .lead {
+      max-width: 720px;
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    .ruleBar {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .rule {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: var(--shadow);
+    }
+    .rule strong { display: block; font-size: 14px; }
+    .rule span { display: block; margin-top: 4px; color: var(--muted); font-size: 12px; }
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 8px 18px 42px;
+      display: grid;
+      gap: 14px;
+    }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+    .sectionHead {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 12px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+    .badge {
+      flex: none;
+      color: var(--accent);
+      background: var(--soft);
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .step, .typeCard, .noteBox {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 13px;
+      background: #fbfcff;
+    }
+    .step b, .typeCard b { display: block; margin-bottom: 5px; }
+    .step p, .typeCard p, .noteBox p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .types {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+    }
+    li { margin: 5px 0; }
+    code {
+      font-family: "Cascadia Mono", Consolas, monospace;
+      background: #eef2f8;
+      border: 1px solid #e0e6f1;
+      border-radius: 6px;
+      padding: 1px 5px;
+      font-size: 0.95em;
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .warn {
+      background: var(--warn);
+      border-color: var(--warnLine);
+    }
+    .template {
+      white-space: pre-wrap;
+      margin: 0;
+      font-family: "Cascadia Mono", Consolas, monospace;
+      font-size: 13px;
+      background: #101828;
+      color: #f8fafc;
+      border-radius: 12px;
+      padding: 14px;
+      overflow: auto;
+    }
+    .links {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+    .links a {
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 14px;
+      border-radius: 10px;
+      padding: 9px 13px;
+      border: 1px solid var(--line);
+    }
+    .links .primary {
+      color: #fff;
+      background: var(--accent);
+      border-color: var(--accent);
+    }
+    .links .secondary { color: var(--accent); background: #fff; }
+    @media (max-width: 760px) {
+      .topbar { align-items: flex-start; flex-direction: column; }
+      .topLinks { justify-content: flex-start; }
+      .ruleBar, .flow, .types, .grid2 { grid-template-columns: 1fr; }
+      section { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar" aria-label="상단 이동">
+    <a class="home" href="../">메인</a>
+    <div class="topLinks">
+      <a href="../toeic-part5-theory/">15유형 전체</a>
+      <a href="../toeic-part5-complete-site/">전체유형 풀이</a>
+      <a href="../seoah-part5-training/">서아 트레이닝</a>
+    </div>
+  </nav>
+
+  <header>
+    <p class="eyebrow">TOEIC RC PART 5</p>
+    <h1>Part 5 핵심 ver</h1>
+    <p class="lead">긴 이론을 처음부터 읽지 말고, 문제를 풀 때 이 순서만 적용한다. 목표는 30문항을 12분 안쪽으로 처리하고, 오답을 네 통으로 분류하는 것이다.</p>
+    <div class="ruleBar" aria-label="시험 운영 핵심">
+      <div class="rule"><strong>30문항 12분</strong><span>40초 넘으면 표시하고 이동</span></div>
+      <div class="rule"><strong>보기 먼저</strong><span>품사, 동사, 전접부, 어휘로 분류</span></div>
+      <div class="rule"><strong>오답 한 줄</strong><span>유형 + 근거 + 모르는 표현만</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="sectionHead">
+        <h2>풀이 순서</h2>
+        <span class="badge">매 문제 적용</span>
+      </div>
+      <div class="flow">
+        <div class="step">
+          <b>1. 보기 확인</b>
+          <p>같은 단어 변형인지, 동사 모양인지, 전치사/접속사인지 먼저 본다.</p>
+        </div>
+        <div class="step">
+          <b>2. 자리 확인</b>
+          <p>빈칸 앞뒤가 명사 자리인지, 동사 자리인지, 수식 자리인지 본다.</p>
+        </div>
+        <div class="step">
+          <b>3. 구조 확인</b>
+          <p>뒤가 명사구면 전치사, 뒤가 주어+동사면 접속사 가능성이 크다.</p>
+        </div>
+        <div class="step">
+          <b>4. 의미 확인</b>
+          <p>전부 다른 단어면 문맥, 목적어, 전치사, 연어로 좁힌다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sectionHead">
+        <h2>4대 유형</h2>
+        <span class="badge">오답 분류 기준</span>
+      </div>
+      <div class="types">
+        <div class="typeCard">
+          <b>품사</b>
+          <p><code>accuracy / accurate / accurately</code>처럼 같은 단어 변형. 해석보다 자리를 먼저 본다.</p>
+          <ul>
+            <li>명사 앞: 형용사 가능성</li>
+            <li>동사/형용사 수식: 부사 가능성</li>
+            <li>관사/소유격/전치사 뒤: 명사 가능성</li>
+          </ul>
+        </div>
+        <div class="typeCard">
+          <b>동사</b>
+          <p>주어 단복수, 능동/수동, 시제, 완료를 순서대로 본다.</p>
+          <ul>
+            <li><code>each/every + 단수명사</code>는 단수</li>
+            <li>수동태 기본형은 <code>be + p.p.</code></li>
+            <li><code>since/for/so far</code>는 현재완료 힌트</li>
+          </ul>
+        </div>
+        <div class="typeCard">
+          <b>전접부</b>
+          <p>전치사, 접속사, 접속부사는 뜻보다 뒤 구조를 먼저 본다.</p>
+          <ul>
+            <li><code>because</code> + 주어+동사</li>
+            <li><code>because of</code> + 명사구</li>
+            <li><code>although</code> + 절, <code>despite</code> + 명사구</li>
+          </ul>
+        </div>
+        <div class="typeCard">
+          <b>어휘·연어</b>
+          <p>뜻 하나로 외우지 말고 같이 붙는 단어를 외운다.</p>
+          <ul>
+            <li><code>meet / extend / miss a deadline</code></li>
+            <li><code>submit / review / revise a report</code></li>
+            <li><code>comply with regulations</code></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sectionHead">
+        <h2>먼저 외울 낚시</h2>
+        <span class="badge">시험 전 체크</span>
+      </div>
+      <div class="grid2">
+        <div class="noteBox">
+          <b>불가산·수일치</b>
+          <ul>
+            <li><code>information</code>, <code>equipment</code>, <code>advice</code>, <code>news</code>는 단수 취급</li>
+            <li><code>the list of candidates is</code>: 진짜 주어는 <code>list</code></li>
+            <li><code>most/all/some of</code>는 뒤 명사에 맞춘다</li>
+          </ul>
+        </div>
+        <div class="noteBox">
+          <b>수동태·자동사</b>
+          <ul>
+            <li><code>happen</code>, <code>occur</code>, <code>arrive</code>, <code>rise</code>, <code>fall</code>, <code>remain</code>은 보통 수동태 X</li>
+            <li><code>be satisfied with</code>, <code>be known for</code>, <code>be related to</code>는 덩어리로 암기</li>
+          </ul>
+        </div>
+        <div class="noteBox">
+          <b>to V vs 전치사 to</b>
+          <ul>
+            <li><code>be required to V</code>: to부정사</li>
+            <li><code>look forward to -ing</code>, <code>be committed to -ing</code>: 전치사 to</li>
+          </ul>
+        </div>
+        <div class="noteBox">
+          <b>관계사·분사 축약</b>
+          <ul>
+            <li><code>the report we reviewed</code>: 목적격 관계대명사 생략</li>
+            <li><code>the staff appointed to the team</code>: <code>who are</code> 생략, 수동 의미</li>
+            <li>문장의 진짜 동사가 따로 있으면 <code>명사 + p.p.</code>는 앞 명사 수식 가능성이 크다</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sectionHead">
+        <h2>오답노트 양식</h2>
+        <span class="badge">길게 쓰지 않기</span>
+      </div>
+      <pre class="template">Q___
+유형: 품사 / 동사 / 전접부 / 어휘·연어
+정답 근거: 빈칸 뒤 명사를 꾸며야 해서 형용사
+회수 표현: submit a report / comply with regulations
+다음에 볼 것: 같은 유형 3개 이상 틀리면 15유형 전체에서 해당 항목만 검색</pre>
+    </section>
+
+    <section class="warn">
+      <div class="sectionHead">
+        <h2>오늘 공부법</h2>
+        <span class="badge">20분 버전</span>
+      </div>
+      <ul>
+        <li>12분: Part 5 30문항을 시간 재고 푼다.</li>
+        <li>8분: 틀린 문제와 오래 고민한 문제를 4대 유형으로만 분류한다.</li>
+        <li>긴 이론은 정독하지 않는다. 오답 유형이 반복될 때만 전체 이론에서 검색한다.</li>
+      </ul>
+      <div class="links">
+        <a class="primary" href="../toeic-part5-complete-site/">문제 풀기</a>
+        <a class="secondary" href="../toeic-part5-theory/">15유형 전체 이론</a>
+        <a class="secondary" href="../toeic-part5-quickjudge/">보기 4갈래 훈련</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
