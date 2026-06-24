@@ -931,6 +931,13 @@ window.VOCAB_DATA = {
    "meaning": "신입사원, 신입 직원",
    "forms": "orientation for new staff; new recruit/hire/employee",
    "cat": "Part 5"
+  },
+  {
+   "id": "w133",
+   "term": "ambience",
+   "meaning": "(장소의) 분위기, 정취",
+   "forms": "a cozy/relaxing ambience; = atmosphere",
+   "cat": "Part 5"
   }
  ]
 };
