@@ -142,683 +142,788 @@ window.VOCAB_DATA = {
    "cat": "Part 5"
   },
   {
-   "id": "w105",
+   "id": "w20",
    "term": "successor",
    "meaning": "후임자, 계승자",
    "forms": "successor to the CEO / appoint a successor / name A as successor",
    "cat": "Part 5"
   },
   {
-   "id": "w106",
+   "id": "w21",
    "term": "name / named",
    "meaning": "이름을 붙이다; 지명하다, 임명하다; ~라는 이름의",
    "forms": "name A as B / be named successor/director / a company named ABC",
    "cat": "Part 5"
   },
   {
-   "id": "w107",
+   "id": "w22",
    "term": "conservative",
    "meaning": "보수적인; (추정치·양·수치를) 적게 잡은",
    "forms": "a conservative estimate / conservative figures / a conservative approach",
    "cat": "Part 5"
   },
   {
-   "id": "w108",
+   "id": "w23",
    "term": "be susceptible to / be vulnerable to",
    "meaning": "~에 영향을 받기 쉽다, ~에 취약하다",
    "forms": "be susceptible to damage or disease / be vulnerable to price changes",
    "cat": "Part 5"
   },
   {
-   "id": "w109",
+   "id": "w24",
    "term": "initiative",
    "meaning": "계획, 방안; 주도권, 진취성",
    "forms": "launch an initiative / a new initiative to reduce costs / take the initiative",
    "cat": "Part 5"
   },
   {
-   "id": "w110",
+   "id": "w25",
    "term": "propose / proposed / proposal",
    "meaning": "제안하다 / 제안된 / 제안, 제안서",
    "forms": "submit a proposal / a proposed change / propose a plan",
    "cat": "Part 5"
   },
   {
-   "id": "w111",
+   "id": "w26",
    "term": "delegate / delegation",
    "meaning": "위임하다, 대표로 보내다 / 위임, 대표단",
    "forms": "delegate tasks/responsibilities / a trade delegation / delegation of authority",
    "cat": "Part 5"
   },
   {
-   "id": "w112",
+   "id": "w27",
    "term": "scope",
    "meaning": "범위, 영역",
    "forms": "scope of work / within the scope of the project / beyond the scope of the contract",
    "cat": "Part 5"
   },
   {
-   "id": "w113",
+   "id": "w28",
    "term": "hire / hiring",
    "meaning": "고용하다, 채용하다 / 채용, 고용",
-   "forms": "hiring process / hiring manager / for hiring purposes / be hiring new employees",
+   "forms": "hiring process / hiring manager / be hiring new employees",
    "cat": "Part 5"
   },
   {
-   "id": "w114",
+   "id": "w29",
    "term": "be expected to V",
    "meaning": "~할 것으로 예상되다; (규정·안내) ~해야 한다",
    "forms": "employees are expected to attend / prices are expected to rise",
    "cat": "Part 5"
   },
   {
-   "id": "w115",
+   "id": "w30",
    "term": "urge",
    "meaning": "촉구하다, 강력히 권하다",
    "forms": "urge A to V / be urged to V / urgent request / respond urgently",
    "cat": "Part 5"
   },
   {
-   "id": "w116",
+   "id": "w31",
    "term": "effective",
-   "meaning": "효과적인; (날짜·시간 표현 앞에서) ~를 기하여, ~부터",
-   "forms": "effective June 1 / effective immediately / effective next Monday; an effective strategy",
+   "meaning": "효과적인; 날짜·시간 표현 앞에서 ~를 기하여, ~부터",
+   "forms": "effective June 1 / effective immediately / effective next Monday",
    "cat": "Part 5"
   },
   {
-   "id": "w20",
+   "id": "w32",
    "term": "invoice",
    "meaning": "청구서, 송장",
    "forms": "issue/send/pay an invoice / invoice number / overdue invoice",
    "cat": "Part 5"
   },
   {
-   "id": "w21",
+   "id": "w33",
    "term": "outline",
    "meaning": "(동사) 개요를 설명하다, 윤곽을 잡다; (명사) 개요, 윤곽",
    "forms": "outline a plan/proposal / the report outlines the key steps",
    "cat": "Part 5"
   },
   {
-   "id": "w22",
+   "id": "w34",
    "term": "majority",
    "meaning": "대다수, 과반수",
    "forms": "the majority of + 명사 / a vast(slim) majority / majority vote; 수일치는 of 뒤 명사에(the majority of staff are)",
    "cat": "Part 5"
   },
   {
-   "id": "w23",
+   "id": "w35",
    "term": "mandatory",
    "meaning": "의무적인, 필수적인",
    "forms": "mandatory training/attendance/retirement; It is mandatory that S (should) V; = compulsory/required (↔ optional)",
    "cat": "Part 5"
   },
   {
-   "id": "w24",
+   "id": "w36",
    "term": "promptly",
    "meaning": "즉시, 신속히; (시각) 정각에",
    "forms": "respond/pay promptly / begin promptly at 9 A.M.; (형) prompt response/payment/action",
    "cat": "Part 5"
   },
   {
-   "id": "w25",
+   "id": "w37",
    "term": "complimentary / complementary",
    "meaning": "complimentary 무료의(=free); complementary 보완적인",
    "forms": "complimentary breakfast(무료) / complementary colors(보완)",
    "cat": "혼동어"
   },
   {
-   "id": "w26",
+   "id": "w38",
    "term": "considerable / considerate",
    "meaning": "considerable 상당한(양·정도); considerate 사려 깊은",
    "forms": "a considerable amount / be considerate of others",
    "cat": "혼동어"
   },
   {
-   "id": "w27",
+   "id": "w39",
    "term": "economic / economical",
    "meaning": "economic 경제의; economical 절약되는, 알뜰한",
    "forms": "economic growth / an economical car(연비 좋은)",
    "cat": "혼동어"
   },
   {
-   "id": "w28",
+   "id": "w40",
    "term": "deduct",
    "meaning": "공제하다, 빼다, 차감하다",
    "forms": "deduct A from B / taxes are deducted from the salary; (명) deduction 공제 (cf. deduce 추론하다)",
    "cat": "Part 5"
   },
   {
-   "id": "w29",
+   "id": "w41",
    "term": "detain / detained",
    "meaning": "구금하다·억류하다; (격식) 지체시키다·붙잡다",
    "forms": "be detained at customs / detained by traffic; (명) detention 구금",
    "cat": "Part 5"
   },
   {
-   "id": "w30",
+   "id": "w42",
    "term": "proof of employment",
    "meaning": "재직증명서",
    "forms": "proof of purchase(구매 증빙)/proof of identity/proof of payment; submit proof of ~",
    "cat": "Part 5"
   },
   {
-   "id": "w31",
+   "id": "w43",
    "term": "proceed",
    "meaning": "진행하다, 계속하다, 나아가다",
    "forms": "proceed with the plan / proceed to the next step; (명) procedure 절차, proceeds 수익금",
    "cat": "Part 5"
   },
   {
-   "id": "w32",
+   "id": "w44",
    "term": "promote",
    "meaning": "홍보하다, 촉진하다, 승진시키다",
    "forms": "promote a product / promote growth / be promoted to manager; (명) promotion",
    "cat": "Part 5"
   },
   {
-   "id": "w33",
+   "id": "w45",
    "term": "conduct",
    "meaning": "(동) 실시하다, 수행하다, 진행하다; (명) 행동, 처신",
    "forms": "conduct a survey/study/inspection/interview; code of conduct(행동강령)",
    "cat": "Part 5"
   },
   {
-   "id": "w34",
+   "id": "w46",
    "term": "convene",
    "meaning": "소집하다, (회의를) 열다·소집되다",
    "forms": "convene a meeting / the committee will convene; (명) convention 대회·총회",
    "cat": "Part 5"
   },
   {
-   "id": "w35",
+   "id": "w47",
    "term": "tentative",
    "meaning": "잠정적인, 임시의, 확정되지 않은",
    "forms": "a tentative schedule/agreement/date; (부) tentatively (cf. attentive 주의 깊은)",
    "cat": "Part 5"
   },
   {
-   "id": "w36",
+   "id": "w48",
    "term": "attentive",
    "meaning": "주의 깊은, 세심한",
    "forms": "be attentive to details / an attentive listener (cf. tentative 잠정적인)",
    "cat": "Part 5"
   },
   {
-   "id": "w37",
+   "id": "w49",
    "term": "intensive / extensive",
    "meaning": "intensive 집중적인·강도 높은; extensive 광범위한·폭넓은",
    "forms": "intensive training/care / extensive experience/research/renovations",
    "cat": "혼동어"
   },
   {
-   "id": "w38",
+   "id": "w50",
    "term": "punctuality",
    "meaning": "(명) 시간 엄수, 시간을 잘 지키는 성향",
    "forms": "(형) punctual 시간을 잘 지키는, (부) punctually 시간에 맞춰; reward punctuality",
    "cat": "Part 5"
   },
   {
-   "id": "w39",
+   "id": "w51",
    "term": "eligible for",
    "meaning": "~받을 자격이 있는, ~의 대상이 되는",
    "forms": "be eligible for a discount/promotion/benefits; eligible to V",
    "cat": "Part 5"
   },
   {
-   "id": "w40",
+   "id": "w52",
    "term": "on behalf of",
    "meaning": "~을 대신해서, ~을 대표하여",
    "forms": "on behalf of the company / speak on behalf of the team / sign on behalf of ~",
    "cat": "Part 5"
   },
   {
-   "id": "w41",
+   "id": "w53",
    "term": "in accordance with",
    "meaning": "~에 따라서, ~에 부합하게",
    "forms": "in accordance with the policy/regulations/agreement",
    "cat": "Part 5"
   },
   {
-   "id": "w42",
+   "id": "w54",
    "term": "be responsible for",
    "meaning": "~에 책임이 있다, ~을 담당하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w43",
+   "id": "w55",
    "term": "be eligible for",
    "meaning": "~을 받을 자격이 있다, ~ 대상이다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w44",
+   "id": "w56",
    "term": "be aware of",
    "meaning": "~을 알고 있다, 인지하고 있다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w45",
+   "id": "w57",
    "term": "be familiar with",
    "meaning": "~에 익숙하다, 잘 알고 있다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w46",
+   "id": "w58",
    "term": "be satisfied with",
    "meaning": "~에 만족하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w47",
+   "id": "w59",
    "term": "access to",
    "meaning": "~에 대한 접근권, 이용권",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w48",
+   "id": "w60",
    "term": "response to",
    "meaning": "~에 대한 응답, 대응",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w49",
+   "id": "w61",
    "term": "solution to",
    "meaning": "~에 대한 해결책",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w50",
+   "id": "w62",
    "term": "reason for",
    "meaning": "~에 대한 이유",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w51",
+   "id": "w63",
    "term": "demand for",
    "meaning": "~에 대한 수요",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w52",
+   "id": "w64",
    "term": "increase in",
    "meaning": "~의 증가",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w53",
+   "id": "w65",
    "term": "in advance",
    "meaning": "미리, 사전에",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w54",
+   "id": "w66",
    "term": "on time",
    "meaning": "제시간에",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w55",
+   "id": "w67",
    "term": "under warranty",
    "meaning": "보증 기간 내에, 보증 대상인",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w56",
+   "id": "w68",
    "term": "at no extra charge",
    "meaning": "추가 비용 없이",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w57",
+   "id": "w69",
    "term": "within walking distance",
    "meaning": "걸어서 갈 수 있는 거리 내에",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w58",
+   "id": "w70",
    "term": "with regard to",
    "meaning": "~에 관하여, ~와 관련하여",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w59",
+   "id": "w71",
    "term": "in preparation for",
    "meaning": "~을 준비하여, ~에 대비하여",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w60",
+   "id": "w72",
    "term": "be known for",
    "meaning": "~로 알려져 있다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w61",
+   "id": "w73",
    "term": "be renowned for",
    "meaning": "~로 유명하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w62",
+   "id": "w74",
    "term": "be used for",
    "meaning": "~에 사용되다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w63",
+   "id": "w75",
    "term": "be pleased with",
    "meaning": "~에 만족하다, 기뻐하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w64",
+   "id": "w76",
    "term": "be associated with",
    "meaning": "~와 관련되다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w65",
+   "id": "w77",
    "term": "be concerned with",
    "meaning": "~와 관련이 있다, ~에 관심이 있다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w66",
+   "id": "w78",
    "term": "be equipped with",
    "meaning": "~을 갖추고 있다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w67",
+   "id": "w79",
    "term": "be faced with",
    "meaning": "~에 직면하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w68",
+   "id": "w80",
    "term": "be dedicated to",
    "meaning": "~에 전념하다, ~ 전용이다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w69",
+   "id": "w81",
    "term": "be devoted to",
    "meaning": "~에 헌신하다, 전념하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w70",
+   "id": "w82",
    "term": "be committed to",
    "meaning": "~에 전념하다, 약속하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w71",
+   "id": "w83",
    "term": "be exposed to",
    "meaning": "~에 노출되다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w72",
+   "id": "w84",
    "term": "be related to",
    "meaning": "~와 관련되다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w73",
+   "id": "w85",
    "term": "be assigned to",
    "meaning": "~에 배정되다, 할당되다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w74",
+   "id": "w86",
    "term": "be interested in",
    "meaning": "~에 관심이 있다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w75",
+   "id": "w87",
    "term": "be engaged in",
    "meaning": "~에 참여하다, 종사하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w76",
+   "id": "w88",
    "term": "be involved in",
    "meaning": "~에 관여하다, 참여하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w77",
+   "id": "w89",
    "term": "be absorbed in",
    "meaning": "~에 몰두하다",
    "forms": "(전치사 콜로케이션)",
    "cat": "전치사"
   },
   {
-   "id": "w78",
+   "id": "w90",
    "term": "comply",
    "meaning": "(with) ~을 준수하다, 따르다, 응하다",
    "forms": "comply with regulations/the policy; (명) compliance 준수, (형) compliant",
    "cat": "Part 5"
   },
   {
-   "id": "w79",
+   "id": "w91",
    "term": "apply for",
    "meaning": "~에 지원하다, 신청하다",
    "forms": "apply for a job/position/loan",
    "cat": "전치사"
   },
   {
-   "id": "w80",
+   "id": "w92",
    "term": "apply to",
    "meaning": "~에 적용되다; ~에 신청하다",
    "forms": "the rule applies to all / apply to a school",
    "cat": "전치사"
   },
   {
-   "id": "w81",
+   "id": "w93",
    "term": "in charge of",
    "meaning": "~을 담당하는, 책임지는",
    "forms": "be in charge of the project / the person in charge",
    "cat": "전치사"
   },
   {
-   "id": "w82",
+   "id": "w94",
    "term": "be subject to",
    "meaning": "~의 대상이 되는, ~에 영향을 받기 쉬운, ~에 따르는",
    "forms": "subject to change/approval/availability/fees",
    "cat": "전치사"
   },
   {
-   "id": "w83",
+   "id": "w95",
    "term": "adhere to",
    "meaning": "~을 지키다, 준수하다, 고수하다",
    "forms": "adhere to the rules/guidelines/schedule; (명) adherence",
    "cat": "전치사"
   },
   {
-   "id": "w84",
+   "id": "w96",
    "term": "make arrangements for",
    "meaning": "~을 준비하다, 마련하다, 주선하다",
    "forms": "make arrangements for the trip/meeting; arrange for ~",
    "cat": "전치사"
   },
   {
-   "id": "w85",
+   "id": "w97",
    "term": "take effect",
    "meaning": "효력이 발생하다, 시행·발효되다 (effect=명사)",
    "forms": "the policy takes effect on May 1; in effect / come into effect",
    "cat": "Part 5"
   },
   {
-   "id": "w86",
+   "id": "w98",
    "term": "meet a deadline",
    "meaning": "마감기한을 맞추다, 마감일 안에 끝내다",
    "forms": "meet the deadline; meet requirements/standards/demand (meet=충족하다)",
    "cat": "Part 5"
   },
   {
-   "id": "w87",
+   "id": "w99",
    "term": "The manager submitted a revised proposal to the board.",
    "meaning": "매니저는 수정된 제안서를 이사회에 제출했다.",
    "forms": "submit 제출 / revised 수정된 / proposal 제안서 / the board 이사회",
    "cat": "예문"
   },
   {
-   "id": "w88",
+   "id": "w100",
    "term": "the accounting department",
    "meaning": "회계부, 경리과",
    "forms": "accounting 회계/경리; accounting department/firm/period",
    "cat": "Part 5"
   },
   {
-   "id": "w89",
+   "id": "w101",
    "term": "receptionist",
    "meaning": "접수원, 안내 데스크 직원",
    "forms": "the receptionist at the front desk; reception 접수처/환영회",
    "cat": "Part 5"
   },
   {
-   "id": "w90",
+   "id": "w102",
    "term": "The company experienced a significant increase in sales.",
    "meaning": "그 회사는 매출의 상당한 증가를 경험했다.",
    "forms": "experience 경험하다 / significant 상당한 / increase in sales 매출 증가",
    "cat": "예문"
   },
   {
-   "id": "w91",
+   "id": "w103",
    "term": "an increase in sales",
    "meaning": "매출 증가",
    "forms": "a/an increase in + 명사(증가); a decrease/decline in",
    "cat": "전치사"
   },
   {
-   "id": "w92",
+   "id": "w104",
    "term": "The company offers competitive prices on bulk orders.",
    "meaning": "그 회사는 대량 주문에 대해 경쟁력 있는 가격을 제공한다.",
    "forms": "offer 제공하다 / competitive prices 경쟁력 있는 가격 / bulk orders 대량 주문",
    "cat": "예문"
   },
   {
-   "id": "w93",
+   "id": "w105",
    "term": "so far",
    "meaning": "지금까지, 여태까지",
    "forms": "so far this year; 현재완료와 자주(have done ~ so far)",
    "cat": "Part 5"
   },
   {
-   "id": "w94",
+   "id": "w106",
    "term": "right",
    "meaning": "적절한, 알맞은; 옳은",
    "forms": "the right person/time/decision; (부) 바로·정확히",
    "cat": "Part 5"
   },
   {
-   "id": "w95",
+   "id": "w107",
    "term": "compensate for",
    "meaning": "~을 보완하다, 벌충하다, 만회하다",
    "forms": "compensate for the loss/delay; (명) compensation 보상",
    "cat": "전치사"
   },
   {
-   "id": "w96",
+   "id": "w108",
    "term": "diligently",
    "meaning": "성실하게, 부지런히",
    "forms": "work diligently; (형) diligent 성실한, (명) diligence 근면",
    "cat": "Part 5"
   },
   {
-   "id": "w97",
+   "id": "w109",
    "term": "decidedly",
    "meaning": "확실히, 분명히, 단연(단호하게)",
    "forms": "decidedly better/different (cf. decisive 결정적인)",
    "cat": "Part 5"
   },
   {
-   "id": "w98",
+   "id": "w110",
    "term": "valuable",
    "meaning": "소중한, 귀중한, 가치 있는",
    "forms": "valuable experience/information/asset; (명) valuables 귀중품",
    "cat": "Part 5"
   },
   {
-   "id": "w99",
+   "id": "w111",
    "term": "invaluable",
    "meaning": "매우 귀중한 (값 못 매길 만큼); in-이 부정 아님!",
    "forms": "invaluable advice/help; ≠가치없는(valueless/worthless), ≠취약한(vulnerable)",
    "cat": "혼동어"
   },
   {
-   "id": "w100",
+   "id": "w112",
    "term": "milestone",
    "meaning": "이정표; (비유) 중요한 단계·시점, 획기적 사건",
    "forms": "reach/mark a milestone; an important milestone in ~",
    "cat": "Part 5"
   },
   {
-   "id": "w101",
+   "id": "w113",
    "term": "consultation",
    "meaning": "상담, 협의, 진찰",
    "forms": "a consultation with ~ / consultation fee; (동) consult 상담·참고하다, (명) consultant",
    "cat": "Part 5"
   },
   {
-   "id": "w102",
+   "id": "w114",
    "term": "tenant",
    "meaning": "세입자, 임차인",
    "forms": "tenants must pay rent / notify tenants; (반) landlord 집주인",
    "cat": "Part 5"
   },
   {
-   "id": "w103",
+   "id": "w115",
    "term": "specification",
    "meaning": "사양, 명세, 규격",
    "forms": "product specifications(specs); (동) specify 명시하다, (형) specific 구체적인",
    "cat": "Part 5"
   },
   {
-   "id": "w104",
+   "id": "w116",
    "term": "major renovations",
    "meaning": "대대적인 보수공사",
    "forms": "undergo/be closed for major renovations; renovate 개조하다, renovation 보수",
    "cat": "Part 5"
+  },
+  {
+   "id": "w117",
+   "term": "venue",
+   "meaning": "(행사) 장소, 개최지",
+   "forms": "the venue for the conference / change the venue",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w118",
+   "term": "electrician",
+   "meaning": "전기 기술자, 전기공",
+   "forms": "hire an electrician; -ician = 사람(technician/musician)",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w119",
+   "term": "experienced",
+   "meaning": "숙련된, 경험이 풍부한",
+   "forms": "an experienced engineer; experience 경험",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w120",
+   "term": "the original restaurant",
+   "meaning": "It was the first location to open",
+   "forms": "원조·1호점 (가장 먼저 문 연 곳)",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w121",
+   "term": "delay",
+   "meaning": "postpone",
+   "forms": "미루다·연기하다",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w122",
+   "term": "refund",
+   "meaning": "reimburse / reimbursement",
+   "forms": "환불·상환",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w123",
+   "term": "buy",
+   "meaning": "purchase",
+   "forms": "구매하다",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w124",
+   "term": "job opening",
+   "meaning": "vacancy",
+   "forms": "공석·결원",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w125",
+   "term": "sign up",
+   "meaning": "register / enroll",
+   "forms": "등록하다",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w126",
+   "term": "free",
+   "meaning": "complimentary / at no cost",
+   "forms": "무료",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w127",
+   "term": "fix",
+   "meaning": "repair",
+   "forms": "수리하다",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w128",
+   "term": "nearby",
+   "meaning": "in the vicinity",
+   "forms": "근처에",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w129",
+   "term": "discount",
+   "meaning": "reduced price",
+   "forms": "할인가",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w130",
+   "term": "a wide selection",
+   "meaning": "a variety of / various",
+   "forms": "다양한 종류",
+   "cat": "패러프레이징"
+  },
+  {
+   "id": "w131",
+   "term": "to that end",
+   "meaning": "그 목적을 위해, 그러기 위해",
+   "forms": "앞 문장 목적 받아 '그러려고' (= for that purpose)",
+   "cat": "전치사"
   }
  ]
 };
