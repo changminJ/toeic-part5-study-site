@@ -3,7 +3,7 @@ const WORDS = DATA.words;
 const byId = new Map(WORDS.map((w) => [w.id, w]));
 const KNOWN_KEY = "vocabKnown";
 const THEME_KEY = "vocabTheme";
-const CATS = ["전체", "Part 5", "전치사", "예문", "혼동어", "LC"];
+const CATS = ["전체", "단어·표현", "문장", "Part 5", "전치사", "혼동어", "LC"];
 
 const state = {
   mode: "card",
@@ -39,8 +39,15 @@ const els = {
 };
 
 function saveKnown() { localStorage.setItem(KNOWN_KEY, JSON.stringify(state.known)); }
+function isSentence(w) { return w.cat === "예문" || w.cat === "문장" || w.kind === "sentence"; }
+function labelCat(w) { return isSentence(w) ? "문장" : w.cat; }
 function filtered() {
-  return WORDS.filter((w) => state.filter === "전체" || w.cat === state.filter);
+  return WORDS.filter((w) => {
+    if (state.filter === "전체") return true;
+    if (state.filter === "단어·표현") return !isSentence(w);
+    if (state.filter === "문장") return isSentence(w);
+    return w.cat === state.filter;
+  });
 }
 function pool() {
   let p = filtered();
@@ -90,7 +97,7 @@ function renderCard() {
   }
   if (state.index >= ids.length) state.index = ids.length - 1;
   const w = byId.get(ids[state.index]);
-  els.cat.textContent = w.cat + (state.known[w.id] ? " · 외움" : "");
+  els.cat.textContent = labelCat(w) + (state.known[w.id] ? " · 외움" : "");
   els.term.textContent = w.term;
   els.meaning.textContent = w.meaning;
   els.forms.textContent = w.forms;

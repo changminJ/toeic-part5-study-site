@@ -156,6 +156,69 @@ window.VOCAB_DATA = {
    "cat": "Part 5"
   },
   {
+   "id": "w107",
+   "term": "conservative",
+   "meaning": "보수적인; (추정치·양·수치를) 적게 잡은",
+   "forms": "a conservative estimate / conservative figures / a conservative approach",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w108",
+   "term": "be susceptible to / be vulnerable to",
+   "meaning": "~에 영향을 받기 쉽다, ~에 취약하다",
+   "forms": "be susceptible to damage or disease / be vulnerable to price changes",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w109",
+   "term": "initiative",
+   "meaning": "계획, 방안; 주도권, 진취성",
+   "forms": "launch an initiative / a new initiative to reduce costs / take the initiative",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w110",
+   "term": "propose / proposed / proposal",
+   "meaning": "제안하다 / 제안된 / 제안, 제안서",
+   "forms": "submit a proposal / a proposed change / propose a plan",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w111",
+   "term": "delegate / delegation",
+   "meaning": "위임하다, 대표로 보내다 / 위임, 대표단",
+   "forms": "delegate tasks/responsibilities / a trade delegation / delegation of authority",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w112",
+   "term": "scope",
+   "meaning": "범위, 영역",
+   "forms": "scope of work / within the scope of the project / beyond the scope of the contract",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w113",
+   "term": "hire / hiring",
+   "meaning": "고용하다, 채용하다 / 채용, 고용",
+   "forms": "hiring process / hiring manager / for hiring purposes / be hiring new employees",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w114",
+   "term": "be expected to V",
+   "meaning": "~할 것으로 예상되다; (규정·안내) ~해야 한다",
+   "forms": "employees are expected to attend / prices are expected to rise",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w115",
+   "term": "urge",
+   "meaning": "촉구하다, 강력히 권하다",
+   "forms": "urge A to V / be urged to V / urgent request / respond urgently",
+   "cat": "Part 5"
+  },
+  {
    "id": "w20",
    "term": "invoice",
    "meaning": "청구서, 송장",
