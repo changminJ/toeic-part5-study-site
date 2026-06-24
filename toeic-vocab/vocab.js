@@ -952,6 +952,27 @@ window.VOCAB_DATA = {
    "meaning": "임원, 경영진; 경영의",
    "forms": "chief executive / executive director / the executive board",
    "cat": "Part 5"
+  },
+  {
+   "id": "w136",
+   "term": "legible",
+   "meaning": "(글씨가) 읽기 쉬운, 또렷한",
+   "forms": "legible handwriting; cf. eligible 자격있는 (둘 다 -gible)",
+   "cat": "혼동어"
+  },
+  {
+   "id": "w137",
+   "term": "illegible",
+   "meaning": "읽기 힘든, 알아볼 수 없는",
+   "forms": "an illegible signature/note (il-=부정)",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w138",
+   "term": "initial",
+   "meaning": "(형) 초기의, 처음의",
+   "forms": "initial stage/investment; (부) initially 처음에 (cf. initiative 주도권 — '초기의'는 initial)",
+   "cat": "혼동어"
   }
  ]
 };
