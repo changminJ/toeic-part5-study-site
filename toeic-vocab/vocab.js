@@ -219,6 +219,13 @@ window.VOCAB_DATA = {
    "cat": "Part 5"
   },
   {
+   "id": "w116",
+   "term": "effective",
+   "meaning": "효과적인; (날짜·시간 표현 앞에서) ~를 기하여, ~부터",
+   "forms": "effective June 1 / effective immediately / effective next Monday; an effective strategy",
+   "cat": "Part 5"
+  },
+  {
    "id": "w20",
    "term": "invoice",
    "meaning": "청구서, 송장",
@@ -362,7 +369,7 @@ window.VOCAB_DATA = {
    "id": "w40",
    "term": "on behalf of",
    "meaning": "~을 대신해서, ~을 대표하여",
-   "forms": "on behalf of the company / sign on behalf of ~",
+   "forms": "on behalf of the company / speak on behalf of the team / sign on behalf of ~",
    "cat": "Part 5"
   },
   {
