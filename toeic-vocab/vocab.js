@@ -142,6 +142,20 @@ window.VOCAB_DATA = {
    "cat": "Part 5"
   },
   {
+   "id": "w105",
+   "term": "successor",
+   "meaning": "후임자, 계승자",
+   "forms": "successor to the CEO / appoint a successor / name A as successor",
+   "cat": "Part 5"
+  },
+  {
+   "id": "w106",
+   "term": "name / named",
+   "meaning": "이름을 붙이다; 지명하다, 임명하다; ~라는 이름의",
+   "forms": "name A as B / be named successor/director / a company named ABC",
+   "cat": "Part 5"
+  },
+  {
    "id": "w20",
    "term": "invoice",
    "meaning": "청구서, 송장",
