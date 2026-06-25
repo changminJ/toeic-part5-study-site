@@ -36,6 +36,7 @@ const els = {
   quizOpts: document.getElementById("quizOpts"),
   quizFb: document.getElementById("quizFb"),
   quizProg: document.getElementById("quizProg"),
+  listView: document.getElementById("listView"),
 };
 
 function saveKnown() { localStorage.setItem(KNOWN_KEY, JSON.stringify(state.known)); }
@@ -87,6 +88,7 @@ function renderChips() {
 function renderCard() {
   els.cardView.classList.remove("hidden");
   els.quizView.classList.add("hidden");
+  els.listView.classList.add("hidden");
   els.flash.classList.remove("flipped");
   const ids = state.order;
   if (!ids.length) {
@@ -131,6 +133,7 @@ function newQuiz() {
 }
 function renderQuiz() {
   els.cardView.classList.add("hidden");
+  els.listView.classList.add("hidden");
   els.quizView.classList.remove("hidden");
   const q = state.quiz;
   if (q && q.done) { els.quizQ.textContent = "퀴즈는 단어 4개 이상일 때 가능"; els.quizOpts.innerHTML = ""; els.quizFb.textContent = ""; els.quizProg.textContent = ""; return; }
@@ -160,11 +163,28 @@ function pickOption(o, btn) {
   setTimeout(() => { newQuiz(); renderQuiz(); }, correct ? 700 : 1400);
 }
 
+function renderList() {
+  els.cardView.classList.add("hidden");
+  els.quizView.classList.add("hidden");
+  els.listView.classList.remove("hidden");
+  const items = filtered().filter((w) => w.cat !== "패러프레이징");
+  if (!items.length) { els.listView.innerHTML = '<p class="progress">단어가 없습니다.</p>'; return; }
+  const rows = items.map((w) =>
+    '<div class="listItem' + (state.known[w.id] ? " known" : "") + '">' +
+      '<div class="liTerm">' + escapeHtml(w.term) + '</div>' +
+      '<div class="liMean">' + escapeHtml(w.meaning) + '</div>' +
+      (w.forms ? '<div class="liForms">' + escapeHtml(w.forms) + '</div>' : "") +
+    '</div>'
+  ).join("");
+  els.listView.innerHTML = '<p class="listHint">' + items.length + '개 · 영어→뜻 한눈에 (패러프레이징 제외)</p><div class="listGrid">' + rows + '</div>';
+}
+
 function render() {
   renderChips();
   [...els.modeTabs.children].forEach((b) => b.classList.toggle("active", b.dataset.mode === state.mode));
   updateStat();
-  if (state.mode === "quiz") renderQuiz();
+  if (state.mode === "list") renderList();
+  else if (state.mode === "quiz") renderQuiz();
   else renderCard();
 }
 
