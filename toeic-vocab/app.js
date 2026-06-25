@@ -3,7 +3,7 @@ const WORDS = DATA.words;
 const byId = new Map(WORDS.map((w) => [w.id, w]));
 const KNOWN_KEY = "vocabKnown";
 const THEME_KEY = "vocabTheme";
-const CATS = ["전체", "단어·표현", "문장", "패러프레이징", "Part 5", "전치사", "혼동어", "LC"];
+const CATS = ["전체", "⭐ 북마크", "단어·표현", "문장", "패러프레이징", "Part 5", "전치사", "혼동어", "LC"];
 
 const state = {
   mode: "card",
@@ -11,6 +11,7 @@ const state = {
   index: 0,
   order: [],
   known: JSON.parse(localStorage.getItem(KNOWN_KEY) || "{}"),
+  bookmarks: JSON.parse(localStorage.getItem("vocabBookmarks") || "{}"),
   quiz: null,
 };
 
@@ -40,11 +41,13 @@ const els = {
 };
 
 function saveKnown() { localStorage.setItem(KNOWN_KEY, JSON.stringify(state.known)); }
+function saveBookmarks() { localStorage.setItem("vocabBookmarks", JSON.stringify(state.bookmarks)); }
 function isSentence(w) { return w.cat === "예문" || w.cat === "문장" || w.kind === "sentence"; }
 function labelCat(w) { return isSentence(w) ? "문장" : w.cat; }
 function filtered() {
   return WORDS.filter((w) => {
     if (state.filter === "전체") return true;
+    if (state.filter === "⭐ 북마크") return !!state.bookmarks[w.id];
     if (state.filter === "단어·표현") return !isSentence(w) && w.cat !== "패러프레이징";
     if (state.filter === "문장") return isSentence(w);
     return w.cat === state.filter;
@@ -171,9 +174,10 @@ function renderList() {
   const items = filtered().filter((w) => w.cat !== "패러프레이징");
   if (!items.length) { els.listView.innerHTML = '<p class="progress">단어가 없습니다.</p>'; return; }
   const rows = items.map((w) =>
-    '<div class="liRow' + (state.known[w.id] ? " known" : "") + '">' +
+    '<div class="liRow' + (state.known[w.id] ? " known" : "") + (state.bookmarks[w.id] ? " bookmarked" : "") + '">' +
       '<span class="liTerm">' + escapeHtml(w.term) + '</span>' +
       '<span class="liMean">' + escapeHtml(w.meaning) + '</span>' +
+      '<button class="bmBtn" data-id="' + w.id + '">' + (state.bookmarks[w.id] ? "⭐" : "☆") + '</button>' +
     '</div>'
   ).join("");
   const btn = '<button class="coverBtn" id="coverBtn">' + (state.listCovered ? "👁 뜻 열기" : "🙈 뜻 가리기") + '</button>';
@@ -200,6 +204,15 @@ els.shuffle.addEventListener("click", () => { rebuildOrder(true); render(); });
 els.know.addEventListener("click", () => mark(true));
 els.dontKnow.addEventListener("click", () => mark(false));
 els.listView.addEventListener("click", (e) => {
+  const bm = e.target.closest(".bmBtn");
+  if (bm) {
+    const id = bm.getAttribute("data-id");
+    if (state.bookmarks[id]) delete state.bookmarks[id]; else state.bookmarks[id] = true;
+    saveBookmarks();
+    if (state.filter === "⭐ 북마크") { render(); }
+    else { bm.textContent = state.bookmarks[id] ? "⭐" : "☆"; const r = bm.closest(".liRow"); if (r) r.classList.toggle("bookmarked", !!state.bookmarks[id]); }
+    return;
+  }
   const cb = e.target.closest(".coverBtn");
   if (cb) { state.listCovered = !state.listCovered; try { localStorage.setItem("vocabListCover", state.listCovered ? "1" : "0"); } catch (_) {} render(); return; }
   if (state.listCovered) { const row = e.target.closest(".liRow"); if (row) row.classList.toggle("revealed"); }
