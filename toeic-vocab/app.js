@@ -42,6 +42,8 @@ const els = {
 
 function saveKnown() { localStorage.setItem(KNOWN_KEY, JSON.stringify(state.known)); }
 function saveBookmarks() { localStorage.setItem("vocabBookmarks", JSON.stringify(state.bookmarks)); }
+function bmLevel(id) { const v = state.bookmarks[id]; return v === true ? 1 : (Number(v) || 0); }
+function starsHtml(lvl) { return '<span class="bmOn">' + "★".repeat(lvl) + '</span><span class="bmOff">' + "☆".repeat(3 - lvl) + '</span>'; }
 function isSentence(w) { return w.cat === "예문" || w.cat === "문장" || w.kind === "sentence"; }
 function labelCat(w) { return isSentence(w) ? "문장" : w.cat; }
 function filtered() {
@@ -173,20 +175,33 @@ function renderList() {
   els.listView.classList.toggle("covered", !!state.listCovered);
   const items = filtered().filter((w) => w.cat !== "패러프레이징");
   if (!items.length) { els.listView.innerHTML = '<p class="progress">단어가 없습니다.</p>'; return; }
-  const rows = items.map((w) =>
-    '<div class="liRow' + (state.known[w.id] ? " known" : "") + (state.bookmarks[w.id] ? " bookmarked" : "") + '">' +
+  const rowHtml = (w) => {
+    const lvl = bmLevel(w.id);
+    return '<div class="liRow' + (state.known[w.id] ? " known" : "") + (lvl ? " bm" + lvl : "") + '">' +
       '<span class="liTerm">' + escapeHtml(w.term) + '</span>' +
       '<span class="liMean">' + escapeHtml(w.meaning) + '</span>' +
-      '<button class="bmBtn" data-id="' + w.id + '">' + (state.bookmarks[w.id] ? "⭐" : "☆") + '</button>' +
-    '</div>'
-  ).join("");
+      '<button class="bmBtn" data-id="' + w.id + '" title="클릭마다 별+1 (3개 후 0)">' + starsHtml(lvl) + '</button>' +
+    '</div>';
+  };
+  const label = { 3: "⭐⭐⭐", 2: "⭐⭐", 1: "⭐", 0: "별 없음" };
+  const byLvl = { 3: [], 2: [], 1: [], 0: [] };
+  items.forEach((w) => byLvl[bmLevel(w.id)].push(w));
+  const starCount = byLvl[3].length + byLvl[2].length + byLvl[1].length;
+  let tableHtml = "";
+  if (starCount > 0) {
+    [3, 2, 1, 0].forEach((lvl) => {
+      if (!byLvl[lvl].length) return;
+      tableHtml += '<div class="liGroup' + (lvl === 0 ? " liGroupRest" : "") + '">' + label[lvl] + ' · ' + byLvl[lvl].length + '개</div>' +
+                   '<div class="listTable">' + byLvl[lvl].map(rowHtml).join("") + '</div>';
+    });
+  } else {
+    tableHtml = '<div class="listTable">' + items.map(rowHtml).join("") + '</div>';
+  }
   const btn = '<button class="coverBtn" id="coverBtn">' + (state.listCovered ? "👁 뜻 열기" : "🙈 뜻 가리기") + '</button>';
-  const hint = items.length + '개 · 단어→뜻' + (state.listCovered ? ' (탭하면 보기)' : '');
+  const hint = items.length + '개 · 별 클릭마다 +1' + (starCount ? ' · 별표 ' + starCount : '') + (state.listCovered ? ' (탭하면 뜻)' : '');
   const floatBtn = '<button class="coverBtn coverFloat">' + (state.listCovered ? "👁 뜻 열기" : "🙈 뜻 가리기") + '</button>';
-  els.listView.innerHTML = '<div class="listBar"><span class="listHint">' + hint + '</span>' + btn + '</div><div class="listTable">' + rows + '</div>' + floatBtn;
-}
-
-function render() {
+  els.listView.innerHTML = '<div class="listBar"><span class="listHint">' + hint + '</span>' + btn + '</div>' + tableHtml + floatBtn;
+}function render() {
   renderChips();
   [...els.modeTabs.children].forEach((b) => b.classList.toggle("active", b.dataset.mode === state.mode));
   updateStat();
@@ -207,10 +222,12 @@ els.listView.addEventListener("click", (e) => {
   const bm = e.target.closest(".bmBtn");
   if (bm) {
     const id = bm.getAttribute("data-id");
-    if (state.bookmarks[id]) delete state.bookmarks[id]; else state.bookmarks[id] = true;
+    const lvl = (bmLevel(id) + 1) % 4;
+    if (lvl === 0) delete state.bookmarks[id]; else state.bookmarks[id] = lvl;
     saveBookmarks();
-    if (state.filter === "⭐ 북마크") { render(); }
-    else { bm.textContent = state.bookmarks[id] ? "⭐" : "☆"; const r = bm.closest(".liRow"); if (r) r.classList.toggle("bookmarked", !!state.bookmarks[id]); }
+    bm.innerHTML = starsHtml(lvl);
+    const r = bm.closest(".liRow");
+    if (r) { r.classList.remove("bm1", "bm2", "bm3"); if (lvl) r.classList.add("bm" + lvl); }
     return;
   }
   const cb = e.target.closest(".coverBtn");

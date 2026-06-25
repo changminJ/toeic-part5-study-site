@@ -184,3 +184,12 @@ button.danger { background:transparent; color:#dc2626; border-color:#e7b6b6; }
 .bmBtn { background:none; border:none; font-size:17px; line-height:1; cursor:pointer; padding:0 2px; color:var(--muted); }
 .liRow.bookmarked { background:var(--accentSoft) !important; }
 .liRow.bookmarked .bmBtn { color:#f5a623; }
+.liGroup { font-weight:800; font-size:13px; color:var(--accent); margin:12px 0 5px; padding-left:2px; }
+.liGroup.liGroupRest { color:var(--muted); }
+
+.bmBtn { letter-spacing:1px; }
+.bmOn { color:#f5a623; }
+.bmOff { color:var(--line); }
+.liRow.bm1 { background:rgba(245,166,35,.06) !important; }
+.liRow.bm2 { background:rgba(245,166,35,.12) !important; }
+.liRow.bm3 { background:rgba(245,166,35,.20) !important; }
