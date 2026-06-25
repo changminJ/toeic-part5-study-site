@@ -178,7 +178,8 @@ function renderList() {
   ).join("");
   const btn = '<button class="coverBtn" id="coverBtn">' + (state.listCovered ? "👁 뜻 열기" : "🙈 뜻 가리기") + '</button>';
   const hint = items.length + '개 · 단어→뜻' + (state.listCovered ? ' (탭하면 보기)' : '');
-  els.listView.innerHTML = '<div class="listBar"><span class="listHint">' + hint + '</span>' + btn + '</div><div class="listTable">' + rows + '</div>';
+  const floatBtn = '<button class="coverBtn coverFloat">' + (state.listCovered ? "👁 뜻 열기" : "🙈 뜻 가리기") + '</button>';
+  els.listView.innerHTML = '<div class="listBar"><span class="listHint">' + hint + '</span>' + btn + '</div><div class="listTable">' + rows + '</div>' + floatBtn;
 }
 
 function render() {
