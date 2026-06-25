@@ -3,7 +3,7 @@ const WORDS = DATA.words;
 const byId = new Map(WORDS.map((w) => [w.id, w]));
 const KNOWN_KEY = "vocabKnown";
 const THEME_KEY = "vocabTheme";
-const CATS = ["전체", "⭐ 북마크", "단어·표현", "문장", "패러프레이징", "Part 5", "전치사", "혼동어", "LC"];
+const CATS = ["전체", "⭐1+", "⭐2+", "⭐3", "단어·표현", "문장", "패러프레이징", "Part 5", "전치사", "혼동어", "LC"];
 
 const state = {
   mode: "card",
@@ -49,7 +49,9 @@ function labelCat(w) { return isSentence(w) ? "문장" : w.cat; }
 function filtered() {
   return WORDS.filter((w) => {
     if (state.filter === "전체") return true;
-    if (state.filter === "⭐ 북마크") return !!state.bookmarks[w.id];
+    if (state.filter === "⭐1+") return bmLevel(w.id) >= 1;
+    if (state.filter === "⭐2+") return bmLevel(w.id) >= 2;
+    if (state.filter === "⭐3") return bmLevel(w.id) >= 3;
     if (state.filter === "단어·표현") return !isSentence(w) && w.cat !== "패러프레이징";
     if (state.filter === "문장") return isSentence(w);
     return w.cat === state.filter;
