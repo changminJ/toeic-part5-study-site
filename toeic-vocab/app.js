@@ -13,6 +13,7 @@ const state = {
   known: JSON.parse(localStorage.getItem(KNOWN_KEY) || "{}"),
   bookmarks: JSON.parse(localStorage.getItem("vocabBookmarks") || "{}"),
   quiz: null,
+  listShuffleIds: null,
 };
 
 const els = {
@@ -87,7 +88,7 @@ function renderChips() {
     const b = document.createElement("button");
     b.textContent = c;
     if (c === state.filter) b.classList.add("active");
-    b.addEventListener("click", () => { state.filter = c; rebuildOrder(false); render(); });
+    b.addEventListener("click", () => { state.filter = c; state.listShuffleIds = null; rebuildOrder(false); render(); });
     els.chips.appendChild(b);
   });
 }
@@ -190,7 +191,11 @@ function renderList() {
   items.forEach((w) => byLvl[bmLevel(w.id)].push(w));
   const starCount = byLvl[3].length + byLvl[2].length + byLvl[1].length;
   let tableHtml = "";
-  if (starCount > 0) {
+  if (state.listShuffleIds) {
+    const pos = new Map(state.listShuffleIds.map((id, i) => [id, i]));
+    const shuffled = items.filter((w) => pos.has(w.id)).sort((a, b) => pos.get(a.id) - pos.get(b.id));
+    tableHtml = '<div class="listTable">' + shuffled.map(rowHtml).join("") + '</div>';
+  } else if (starCount > 0) {
     [3, 2, 1, 0].forEach((lvl) => {
       if (!byLvl[lvl].length) return;
       tableHtml += '<div class="liGroup' + (lvl === 0 ? " liGroupRest" : "") + '">' + label[lvl] + ' · ' + byLvl[lvl].length + '개</div>' +
@@ -200,9 +205,11 @@ function renderList() {
     tableHtml = '<div class="listTable">' + items.map(rowHtml).join("") + '</div>';
   }
   const btn = '<button class="coverBtn" id="coverBtn">' + (state.listCovered ? "👁 뜻 열기" : "🙈 뜻 가리기") + '</button>';
-  const hint = items.length + '개 · 별 클릭마다 +1' + (starCount ? ' · 별표 ' + starCount : '') + (state.listCovered ? ' (탭하면 뜻)' : '');
+  const clearBtn = starCount > 0 ? '<button class="coverBtn" id="clearStarsBtn">🧹 전체 별 취소</button>' : '';
+  const hint = items.length + '개 · 별 클릭마다 +1' + (starCount ? ' · 별표 ' + starCount : '') + (state.listShuffleIds ? ' · 셔플됨' : '') + (state.listCovered ? ' (탭하면 뜻)' : '');
   const floatBtn = '<button class="coverBtn coverFloat">' + (state.listCovered ? "👁 뜻 열기" : "🙈 뜻 가리기") + '</button>';
-  els.listView.innerHTML = '<div class="listBar"><span class="listHint">' + hint + '</span>' + btn + '</div>' + tableHtml + floatBtn;
+  const shuffleBtn = '<button class="coverBtn coverFloat shuffleFloat' + (state.listShuffleIds ? " on" : "") + '" id="shuffleListBtn">' + (state.listShuffleIds ? "🔀 셔플 해제" : "🔀 셔플") + '</button>';
+  els.listView.innerHTML = '<div class="listBar"><span class="listHint">' + hint + '</span>' + clearBtn + btn + '</div>' + tableHtml + shuffleBtn + floatBtn;
 }function render() {
   renderChips();
   [...els.modeTabs.children].forEach((b) => b.classList.toggle("active", b.dataset.mode === state.mode));
@@ -230,6 +237,18 @@ els.listView.addEventListener("click", (e) => {
     bm.innerHTML = starsHtml(lvl);
     const r = bm.closest(".liRow");
     if (r) { r.classList.remove("bm1", "bm2", "bm3"); if (lvl) r.classList.add("bm" + lvl); }
+    return;
+  }
+  const sh = e.target.closest("#shuffleListBtn");
+  if (sh) {
+    if (state.listShuffleIds) state.listShuffleIds = null;
+    else state.listShuffleIds = shuffleArr(filtered().filter((w) => w.cat !== "패러프레이징").map((w) => w.id));
+    render();
+    return;
+  }
+  const clr = e.target.closest("#clearStarsBtn");
+  if (clr) {
+    if (confirm("모든 별표를 취소할까요?")) { state.bookmarks = {}; saveBookmarks(); render(); }
     return;
   }
   const cb = e.target.closest(".coverBtn");
