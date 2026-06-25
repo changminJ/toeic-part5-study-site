@@ -1032,6 +1032,7 @@ window.VOCAB_DATA = {
   { "id": "w194", "term": "trip", "meaning": "여행, 이동, 출장(다녀오는 일정)", "forms": "a business trip / a round trip", "cat": "Part 7" },
   { "id": "w195", "term": "travel", "meaning": "(동) 여행·이동·출장가다 / (명) 여행", "forms": "travel expenses / travel abroad", "cat": "Part 7" },
   { "id": "w196", "term": "arrangement", "meaning": "준비, 마련, 합의, 배치", "forms": "make arrangements for ~; (동) arrange", "cat": "Part 7" },
+  { "id": "w270", "term": "itinerary", "meaning": "일정표, 여행 일정", "forms": "travel itinerary / conference itinerary / a revised itinerary", "cat": "Part 7" },
   { "id": "w197", "term": "headquarters", "meaning": "본부, 본사 (거의 항상 -s, 단복수 동형)", "forms": "company headquarters / move its headquarters", "cat": "Part 7" },
   { "id": "w198", "term": "project (동사)", "meaning": "예상하다, 전망하다", "forms": "projected sales / project growth of 10%", "cat": "Part 7" },
   { "id": "w199", "term": "boast", "meaning": "자랑하다, 뽐내다", "forms": "the hotel boasts a pool / boast of ~", "cat": "Part 7" },

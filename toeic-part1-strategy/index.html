@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOEIC Part 1 전략 모아보기</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="../" title="메인으로" class="homeBtn">🏠 메인</a>
+    <div>
+      <p class="eyebrow">TOEIC LC Part 1</p>
+      <h1>전략 모아보기</h1>
+    </div>
+    <div class="headControls">
+      <input id="filter" type="search" placeholder="전략·표현 검색 (예: being, wearing, 항구)" autocomplete="off">
+      <button id="themeToggle" class="iconBtn" title="밝게/어둡게">🌙</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <p class="sideTitle">목차</p>
+      <nav id="toc" class="toc" aria-label="목차"></nav>
+      <div class="sideActions">
+        <button id="expandAll" class="secondary">모두 펼치기</button>
+        <button id="collapseAll" class="secondary">모두 접기</button>
+      </div>
+      <p class="sourceNote">출처: 서아쌤 Part 1 method + 나가치토익 LC Part 1 method. 단어 복습은 <a href="../toeic-vocab/index.html">단어 암기</a>의 Part 1 필터.</p>
+    </aside>
+
+    <section id="content" class="content"></section>
+  </main>
+
+  <button id="toTop" class="toTop" title="맨 위로">↑</button>
+
+  <script src="part1.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
