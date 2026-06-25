@@ -163,13 +163,18 @@ button.danger { background:transparent; color:#dc2626; border-color:#e7b6b6; }
 .quizFb { text-align:center; font-weight:700; margin:0; min-height:20px; }
 .hidden { display:none !important; }
 
-/* ===== 표(목록) 보기 ===== */
+/* ===== 표(목록) 보기 — 단어 | 뜻 + 가리기 ===== */
 .listView { display:flex; flex-direction:column; gap:10px; }
-.listHint { text-align:center; color:var(--muted); font-size:12px; margin:0; }
-.listGrid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
-.listItem { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:9px 11px; }
-.listItem.known { opacity:.45; }
-.liTerm { font-weight:800; font-size:15px; line-height:1.35; word-break:keep-all; }
-.liMean { color:var(--muted); font-size:13px; margin-top:2px; }
-.liForms { color:var(--muted); font-size:11px; opacity:.75; margin-top:3px; }
-@media (max-width:380px){ .listGrid{ grid-template-columns:1fr; } }
+.listBar { position:sticky; top:0; z-index:3; display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap; background:var(--bg); padding:6px 0; }
+.listHint { color:var(--muted); font-size:12px; margin:0; }
+.coverBtn { font:inherit; font-weight:700; font-size:13px; padding:8px 14px; border-radius:999px; border:1px solid var(--line); background:var(--panel); color:var(--text); cursor:pointer; }
+.coverBtn:hover { border-color:var(--accent); color:var(--accent); }
+.listTable { display:flex; flex-direction:column; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+.liRow { display:grid; grid-template-columns:1fr 1.15fr; gap:12px; align-items:baseline; padding:9px 12px; border-bottom:1px solid var(--line); }
+.liRow:last-child { border-bottom:none; }
+.liRow:nth-child(even) { background:var(--panel2); }
+.liRow.known { opacity:.5; }
+.liTerm { font-weight:700; font-size:15px; word-break:keep-all; }
+.liMean { color:var(--muted); font-size:14px; }
+.listView.covered .liRow { cursor:pointer; }
+.listView.covered .liRow:not(.revealed) .liMean { background:var(--line); color:transparent; border-radius:5px; user-select:none; }

@@ -167,16 +167,18 @@ function renderList() {
   els.cardView.classList.add("hidden");
   els.quizView.classList.add("hidden");
   els.listView.classList.remove("hidden");
+  els.listView.classList.toggle("covered", !!state.listCovered);
   const items = filtered().filter((w) => w.cat !== "패러프레이징");
   if (!items.length) { els.listView.innerHTML = '<p class="progress">단어가 없습니다.</p>'; return; }
   const rows = items.map((w) =>
-    '<div class="listItem' + (state.known[w.id] ? " known" : "") + '">' +
-      '<div class="liTerm">' + escapeHtml(w.term) + '</div>' +
-      '<div class="liMean">' + escapeHtml(w.meaning) + '</div>' +
-      (w.forms ? '<div class="liForms">' + escapeHtml(w.forms) + '</div>' : "") +
+    '<div class="liRow' + (state.known[w.id] ? " known" : "") + '">' +
+      '<span class="liTerm">' + escapeHtml(w.term) + '</span>' +
+      '<span class="liMean">' + escapeHtml(w.meaning) + '</span>' +
     '</div>'
   ).join("");
-  els.listView.innerHTML = '<p class="listHint">' + items.length + '개 · 영어→뜻 한눈에 (패러프레이징 제외)</p><div class="listGrid">' + rows + '</div>';
+  const btn = '<button class="coverBtn" id="coverBtn">' + (state.listCovered ? "👁 뜻 열기" : "🙈 뜻 가리기") + '</button>';
+  const hint = items.length + '개 · 단어→뜻' + (state.listCovered ? ' (탭하면 보기)' : '');
+  els.listView.innerHTML = '<div class="listBar"><span class="listHint">' + hint + '</span>' + btn + '</div><div class="listTable">' + rows + '</div>';
 }
 
 function render() {
@@ -196,6 +198,11 @@ els.next.addEventListener("click", () => move(1));
 els.shuffle.addEventListener("click", () => { rebuildOrder(true); render(); });
 els.know.addEventListener("click", () => mark(true));
 els.dontKnow.addEventListener("click", () => mark(false));
+els.listView.addEventListener("click", (e) => {
+  const cb = e.target.closest(".coverBtn");
+  if (cb) { state.listCovered = !state.listCovered; try { localStorage.setItem("vocabListCover", state.listCovered ? "1" : "0"); } catch (_) {} render(); return; }
+  if (state.listCovered) { const row = e.target.closest(".liRow"); if (row) row.classList.toggle("revealed"); }
+});
 els.theme.addEventListener("click", () => setTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark"));
 [...els.modeTabs.children].forEach((b) => b.addEventListener("click", () => {
   state.mode = b.dataset.mode;
@@ -214,5 +221,6 @@ document.addEventListener("keydown", (e) => {
 });
 
 setTheme(localStorage.getItem(THEME_KEY) || "light");
+try { state.listCovered = localStorage.getItem("vocabListCover") === "1"; } catch (e) {}
 rebuildOrder(false);
 render();
