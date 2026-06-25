@@ -1102,6 +1102,8 @@ window.VOCAB_DATA = {
   { "id": "w264", "term": "against the wall", "meaning": "벽에 기대어/붙여", "forms": "a ladder against the wall", "cat": "Part 1" },
   { "id": "w265", "term": "on either side", "meaning": "양옆에", "forms": "trees on either side of the road", "cat": "Part 1" },
   { "id": "w266", "term": "overhead", "meaning": "머리 위에", "forms": "lights overhead", "cat": "Part 1" },
-  { "id": "w267", "term": "in the distance", "meaning": "멀리에", "forms": "mountains in the distance", "cat": "Part 1" }
+  { "id": "w267", "term": "in the distance", "meaning": "멀리에", "forms": "mountains in the distance", "cat": "Part 1" },
+  { "id": "w268", "term": "warranty", "meaning": "보증(서), 품질보증", "forms": "under warranty(보증 기간 내) / a one-year warranty / the warranty expires", "cat": "Part 5" },
+  { "id": "w269", "term": "beneath", "meaning": "(전치사) ~의 아래에", "forms": "beneath the surface / the box beneath the table (= under)", "cat": "전치사" }
  ]
 };
