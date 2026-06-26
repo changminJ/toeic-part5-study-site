@@ -1121,6 +1121,8 @@ window.VOCAB_DATA = {
   { "id": "w283", "term": "thought", "meaning": "생각했다; 생각", "forms": "I thought that / a thought occurred to me / thoughtful vs thorough", "cat": "Part 5" },
   { "id": "w284", "term": "thorough", "meaning": "철저한, 꼼꼼한", "forms": "a thorough review / a thorough inspection / thorough training", "cat": "Part 5" },
   { "id": "w285", "term": "mount", "meaning": "오르다; 증가하다; 설치하다, 탑재하다", "forms": "mount the stairs / costs mount / mount a camera on the wall / a wall-mounted display", "cat": "Part 5" },
-  { "id": "w286", "term": "arrange", "meaning": "준비하다, 마련하다; 배열하다; 조정하다", "forms": "arrange a meeting / arrange chairs in a row / arrange the schedule / arrange for transportation", "cat": "Part 5" }
+  { "id": "w286", "term": "arrange", "meaning": "준비하다, 마련하다; 배열하다; 조정하다", "forms": "arrange a meeting / arrange chairs in a row / arrange the schedule / arrange for transportation", "cat": "Part 5" },
+  { "id": "w287", "term": "studying a drawing", "meaning": "도면을 검토하다, 자세히 보다", "forms": "studying a drawing / studying blueprints / looking over a drawing", "cat": "Part 1" },
+  { "id": "w288", "term": "mower", "meaning": "잔디 깎는 기계, 잔디깎이", "forms": "pushing a mower / using a lawn mower / mowing the lawn", "cat": "Part 1" }
  ]
 };
