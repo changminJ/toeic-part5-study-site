@@ -1110,6 +1110,8 @@ window.VOCAB_DATA = {
   { "id": "w272", "term": "scaffolding", "meaning": "비계, 공사용 임시 발판", "forms": "scaffolding around a building / workers on scaffolding", "cat": "Part 1" },
   { "id": "w273", "term": "faucet", "meaning": "수도꼭지", "forms": "turn on a faucet / a faucet over the sink", "cat": "Part 1" },
   { "id": "w274", "term": "pier", "meaning": "교각; 부두, 선창", "forms": "boats at the pier / bridge pier", "cat": "Part 1" },
-  { "id": "w275", "term": "harbor", "meaning": "항구", "forms": "boats in the harbor / harbor area", "cat": "Part 1" }
+  { "id": "w275", "term": "harbor", "meaning": "항구", "forms": "boats in the harbor / harbor area", "cat": "Part 1" },
+  { "id": "w276", "term": "specify", "meaning": "~을 명시하다, 구체화하다", "forms": "specify a date / specify the requirements / as specified", "cat": "Part 5" },
+  { "id": "w277", "term": "specific", "meaning": "특정한, 명시된, 구체적인", "forms": "specific instructions / a specific date / specific details", "cat": "Part 5" }
  ]
 };
