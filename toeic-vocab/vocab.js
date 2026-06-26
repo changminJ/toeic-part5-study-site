@@ -46,8 +46,8 @@ window.VOCAB_DATA = {
   {
    "id": "w6",
    "term": "advance",
-   "meaning": "사전의, 미리 하는",
-   "forms": "advance notice / advance payment / in advance",
+   "meaning": "사전의, 선행의; (명/동) 진전, 나아가다",
+   "forms": "advance notice / advance payment / advance reservation",
    "cat": "LC"
   },
   {
