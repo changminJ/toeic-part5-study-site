@@ -1113,6 +1113,9 @@ window.VOCAB_DATA = {
   { "id": "w275", "term": "harbor", "meaning": "항구", "forms": "boats in the harbor / harbor area", "cat": "Part 1" },
   { "id": "w276", "term": "specify", "meaning": "~을 명시하다, 구체화하다", "forms": "specify a date / specify the requirements / as specified", "cat": "Part 5" },
   { "id": "w277", "term": "specific", "meaning": "특정한, 명시된, 구체적인", "forms": "specific instructions / a specific date / specific details", "cat": "Part 5" },
-  { "id": "w278", "term": "vulnerable", "meaning": "취약한, 연약한, 상처받기 쉬운", "forms": "be vulnerable to attacks/damage/price changes (= susceptible); (명) vulnerability", "cat": "Part 5" }
+  { "id": "w278", "term": "vulnerable", "meaning": "취약한, 연약한, 상처받기 쉬운", "forms": "be vulnerable to attacks/damage/price changes (= susceptible); (명) vulnerability", "cat": "Part 5" },
+  { "id": "w279", "term": "board (v.)", "meaning": "타다, 탑승하다", "forms": "board a plane/train/ship / passengers are boarding", "cat": "LC" },
+  { "id": "w280", "term": "board (n. 판자)", "meaning": "판자, 널빤지", "forms": "wooden boards / boards stacked on the ground / boarded-up windows", "cat": "Part 1" },
+  { "id": "w281", "term": "board (n. 이사회)", "meaning": "이사회", "forms": "the board / board members / board of directors / board meeting", "cat": "Part 5" }
  ]
 };
