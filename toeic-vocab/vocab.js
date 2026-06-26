@@ -1116,6 +1116,9 @@ window.VOCAB_DATA = {
   { "id": "w278", "term": "vulnerable", "meaning": "취약한, 연약한, 상처받기 쉬운", "forms": "be vulnerable to attacks/damage/price changes (= susceptible); (명) vulnerability", "cat": "Part 5" },
   { "id": "w279", "term": "board (v.)", "meaning": "타다, 탑승하다", "forms": "board a plane/train/ship / passengers are boarding", "cat": "LC" },
   { "id": "w280", "term": "board (n. 판자)", "meaning": "판자, 널빤지", "forms": "wooden boards / boards stacked on the ground / boarded-up windows", "cat": "Part 1" },
-  { "id": "w281", "term": "board (n. 이사회)", "meaning": "이사회", "forms": "the board / board members / board of directors / board meeting", "cat": "Part 5" }
+  { "id": "w281", "term": "board (n. 이사회)", "meaning": "이사회", "forms": "the board / board members / board of directors / board meeting", "cat": "Part 5" },
+  { "id": "w282", "term": "though", "meaning": "비록 ~이지만; 그래도", "forms": "though it was expensive / It was expensive, though.", "cat": "Part 5" },
+  { "id": "w283", "term": "thought", "meaning": "생각했다; 생각", "forms": "I thought that / a thought occurred to me / thoughtful vs thorough", "cat": "Part 5" },
+  { "id": "w284", "term": "thorough", "meaning": "철저한, 꼼꼼한", "forms": "a thorough review / a thorough inspection / thorough training", "cat": "Part 5" }
  ]
 };
