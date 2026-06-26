@@ -1123,6 +1123,8 @@ window.VOCAB_DATA = {
   { "id": "w285", "term": "mount", "meaning": "오르다; 증가하다; 설치하다, 탑재하다", "forms": "mount the stairs / costs mount / mount a camera on the wall / a wall-mounted display", "cat": "Part 5" },
   { "id": "w286", "term": "arrange", "meaning": "준비하다, 마련하다; 배열하다; 조정하다", "forms": "arrange a meeting / arrange chairs in a row / arrange the schedule / arrange for transportation", "cat": "Part 5" },
   { "id": "w287", "term": "studying a drawing", "meaning": "도면을 검토하다, 자세히 보다", "forms": "studying a drawing / studying blueprints / looking over a drawing", "cat": "Part 1" },
-  { "id": "w288", "term": "mower", "meaning": "잔디 깎는 기계, 잔디깎이", "forms": "pushing a mower / using a lawn mower / mowing the lawn", "cat": "Part 1" }
+  { "id": "w288", "term": "mower", "meaning": "잔디 깎는 기계, 잔디깎이", "forms": "pushing a mower / using a lawn mower / mowing the lawn", "cat": "Part 1" },
+  { "id": "w289", "term": "sawing", "meaning": "톱질하고 있는, 톱질하다", "forms": "sawing wood / sawing a board / using a saw; (명) saw = 톱", "cat": "Part 1" },
+  { "id": "w290", "term": "A banner is suspended from a window.", "meaning": "현수막이 창문에 걸려 있다", "forms": "a banner suspended from a window / be suspended from ~ / hanging from a window", "cat": "Part 1" }
  ]
 };
