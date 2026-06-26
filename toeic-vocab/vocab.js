@@ -1105,6 +1105,11 @@ window.VOCAB_DATA = {
   { "id": "w266", "term": "overhead", "meaning": "머리 위에", "forms": "lights overhead", "cat": "Part 1" },
   { "id": "w267", "term": "in the distance", "meaning": "멀리에", "forms": "mountains in the distance", "cat": "Part 1" },
   { "id": "w268", "term": "warranty", "meaning": "보증(서), 품질보증", "forms": "under warranty(보증 기간 내) / a one-year warranty / the warranty expires", "cat": "Part 5" },
-  { "id": "w269", "term": "beneath", "meaning": "(전치사) ~의 아래에", "forms": "beneath the surface / the box beneath the table (= under)", "cat": "전치사" }
+  { "id": "w269", "term": "beneath", "meaning": "(전치사) ~의 아래에", "forms": "beneath the surface / the box beneath the table (= under)", "cat": "전치사" },
+  { "id": "w271", "term": "lumber", "meaning": "재목, 목재", "forms": "carry lumber / pieces of lumber / a stack of lumber", "cat": "Part 1" },
+  { "id": "w272", "term": "scaffolding", "meaning": "비계, 공사용 임시 발판", "forms": "scaffolding around a building / workers on scaffolding", "cat": "Part 1" },
+  { "id": "w273", "term": "faucet", "meaning": "수도꼭지", "forms": "turn on a faucet / a faucet over the sink", "cat": "Part 1" },
+  { "id": "w274", "term": "pier", "meaning": "교각; 부두, 선창", "forms": "boats at the pier / bridge pier", "cat": "Part 1" },
+  { "id": "w275", "term": "harbor", "meaning": "항구", "forms": "boats in the harbor / harbor area", "cat": "Part 1" }
  ]
 };
