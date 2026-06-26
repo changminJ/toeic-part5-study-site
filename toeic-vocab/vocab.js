@@ -1119,6 +1119,8 @@ window.VOCAB_DATA = {
   { "id": "w281", "term": "board (n. 이사회)", "meaning": "이사회", "forms": "the board / board members / board of directors / board meeting", "cat": "Part 5" },
   { "id": "w282", "term": "though", "meaning": "비록 ~이지만; 그래도", "forms": "though it was expensive / It was expensive, though.", "cat": "Part 5" },
   { "id": "w283", "term": "thought", "meaning": "생각했다; 생각", "forms": "I thought that / a thought occurred to me / thoughtful vs thorough", "cat": "Part 5" },
-  { "id": "w284", "term": "thorough", "meaning": "철저한, 꼼꼼한", "forms": "a thorough review / a thorough inspection / thorough training", "cat": "Part 5" }
+  { "id": "w284", "term": "thorough", "meaning": "철저한, 꼼꼼한", "forms": "a thorough review / a thorough inspection / thorough training", "cat": "Part 5" },
+  { "id": "w285", "term": "mount", "meaning": "오르다; 증가하다; 설치하다, 탑재하다", "forms": "mount the stairs / costs mount / mount a camera on the wall / a wall-mounted display", "cat": "Part 5" },
+  { "id": "w286", "term": "arrange", "meaning": "준비하다, 마련하다; 배열하다; 조정하다", "forms": "arrange a meeting / arrange chairs in a row / arrange the schedule / arrange for transportation", "cat": "Part 5" }
  ]
 };
