@@ -1151,6 +1151,10 @@ window.VOCAB_DATA = {
   { "id": "w313", "term": "deposit", "meaning": "보증금, 예치금; 입금하다", "forms": "security deposit / pay a deposit / refundable deposit / deposit money into an account", "cat": "Part 7" },
   { "id": "w314", "term": "paycheck", "meaning": "급여, 급여 수표", "forms": "receive a paycheck / paycheck every two weeks / paycheck deposit", "cat": "Part 7" },
   { "id": "w315", "term": "savings account", "meaning": "예금 계좌, 저축 계좌", "forms": "open a savings account / transfer money to a savings account / savings account balance", "cat": "Part 7" },
-  { "id": "w316", "term": "direct deposit", "meaning": "계좌 입금, 자동 이체 입금", "forms": "sign up for direct deposit / direct deposit of a paycheck / direct deposit into an account", "cat": "Part 7" }
+  { "id": "w316", "term": "direct deposit", "meaning": "계좌 입금, 자동 이체 입금", "forms": "sign up for direct deposit / direct deposit of a paycheck / direct deposit into an account", "cat": "Part 7" },
+  { "id": "w317", "term": "company outing", "meaning": "야유회, 회사 야외 행사", "forms": "company outing / annual company outing / staff outing / go on an outing", "cat": "Part 7" },
+  { "id": "w318", "term": "catering service", "meaning": "출장 음식 서비스, 행사 음식 제공 서비스, 케이터링 서비스", "forms": "hire a catering service / catering service for a banquet / provide catering service / contact the caterer", "cat": "Part 7" },
+  { "id": "w319", "term": "address", "meaning": "다루다, 해결하다; 주소", "forms": "address a problem / address concerns / address an issue / mailing address", "cat": "Part 5" },
+  { "id": "w320", "term": "trait", "meaning": "특성, 특징", "forms": "personality trait / common trait / desirable trait / distinctive trait", "cat": "Part 7" }
  ]
 };
