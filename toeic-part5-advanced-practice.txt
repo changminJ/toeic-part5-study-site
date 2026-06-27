@@ -1,0 +1,1017 @@
+                                 TOEIC Part 5 심화 보충 워크북
+  기초 140문항 이후 단계: 대명사, 명사절, 관계사, to/-ing, 전치사 숙어, 유사어휘, collocation, 자동사/타동사,
+                             예외 표현. 총 180문항.
+
+   공부 순서: 이론 표를 먼저 보고, 문제는 유형명을 가리고 풀어라. 틀린 문제는 정답지에서 '왜 그 표현이 자연스러운지'를
+   확인한다.
+
+
+ 1장. 대명사
+   목표: 대명사가 가리키는 명사를 찾고, 주격/목적격/소유격/재귀대명사를 구분한다.
+
+ 이론
+  볼것                                    판단
+
+  뒤에 명사가 바로 있나?                         소유격 my/your/his/her/its/our/their가 필요할 가능성이 크다.
+
+  동사나 전치사 뒤 목적어 자리인가?                   목적격 me/us/him/her/it/them이 필요하다.
+
+  주어와 목적어가 같은가?                         myself/yourself/himself/herself/itself/ourselves/themselves를 쓴다.
+
+  each/every + 단수명사                     문법적으로 단수 취급한다. 단, 현대 영어에서는 their도 자주 쓰이나 시험에서는 문맥을 본다.
+
+
+ 외워야 할 것
+ - 소유격 + 명사: their reports, its policy, our clients
+
+ - 목적격: send it, contact them, between you and me
+
+ - 재귀대명사: introduce oneself, prepare by oneself, familiarize oneself with
+
+ 문제 20개
+ 1장-1. The employees submitted ___ expense reports before the deadline.
+
+ (A) they (B) them (C) their (D) themselves
+
+ 1장-2. Please send the signed contract to ___ by Friday.
+
+ (A) we (B) us (C) our (D) ourselves
+
+ 1장-3. The branch manager prepared the presentation by ___.
+
+ (A) she (B) her (C) hers (D) herself
+
+ 1장-4. All applicants must include ___ contact information on the form.
+
+ (A) they (B) them (C) their (D) themselves
+
+ 1장-5. The company revised ___ refund policy last month.
+
+ (A) it (B) its (C) itself (D) them
+
+ 1장-6. Employees should familiarize ___ with the new safety procedures.
+
+ (A) they (B) them (C) their (D) themselves
+
+ 1장-7. The director asked ___ to review the proposal again.
+
+ (A) he (B) him (C) his (D) himself
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                                             1
+ 1장-8. The committee announced ___ final decision this morning.
+
+ (A) it (B) its (C) itself (D) them
+
+ 1장-9. Participants may choose ___ own seats during registration.
+
+ (A) they (B) them (C) their (D) theirs
+
+ 1장-10. The software will update ___ automatically overnight.
+
+ (A) it (B) its (C) itself (D) itself's
+
+ 1장-11. The new printer is faster than ___ in the reception area.
+
+ (A) those (B) that (C) them (D) itself
+
+ 1장-12. The files on this shelf are older than ___ in the archive room.
+
+ (A) that (B) those (C) it (D) itself
+
+ 1장-13. Ms. Patel and Mr. Wong introduced ___ to the new clients.
+
+ (A) them (B) their (C) themselves (D) they
+
+ 1장-14. The accounting team will contact ___ if additional receipts are needed.
+
+ (A) you (B) your (C) yours (D) yourself
+
+ 1장-15. Each department must submit ___ budget request separately.
+
+ (A) it (B) its (C) itself (D) they
+
+ 1장-16. Several customers said ___ were satisfied with the service.
+
+ (A) they (B) them (C) their (D) themselves
+
+ 1장-17. The warranty does not cover damage caused by ___ misuse.
+
+ (A) you (B) your (C) yours (D) yourself
+
+ 1장-18. The consultant gave ___ a copy of the final report.
+
+ (A) we (B) us (C) our (D) ourselves
+
+ 1장-19. The device turns ___ off after ten minutes of inactivity.
+
+ (A) it (B) its (C) itself (D) itself's
+
+ 1장-20. All visitors must show ___ identification at the front desk.
+
+ (A) they (B) them (C) their (D) themselves
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                    2
+ 2장. 명사절 접속사
+   목표: that/whether/if/what/how/when이 명사절을 만들 때 뒤 문장이 완전한지 불완전한지 본다.
+
+ 이론
+  표현                             뒤 구조                                   감각
+
+  that                           완전한 문장                                 ~라는 것. 사실/내용을 연결한다.
+
+  whether/if                     완전한 문장                                 ~인지 아닌지. decide/check/confirm과 자주 나온다.
+
+  what                           불완전한 문장                                ~하는 것. 뒤에 주어/목적어/보어 중 하나가 빠진다.
+
+  how/when/where/why             완전한 문장                                 방법/시간/장소/이유 정보가 필요할 때 쓴다.
+
+
+ 외워야 할 것
+ - that + 완전문장: The manager said that the report was ready.
+
+ - whether/if + 완전문장: We must decide whether the event will continue.
+
+ - what + 불완전문장: Please send what you prepared.
+
+ 문제 20개
+ 2장-1. The manager confirmed ___ the shipment had arrived.
+
+ (A) what (B) that (C) whether (D) who
+
+ 2장-2. We need to determine ___ the conference room is available.
+
+ (A) what (B) whether (C) that (D) who
+
+ 2장-3. Please send me ___ you prepared for the meeting.
+
+ (A) that (B) whether (C) what (D) when
+
+ 2장-4. The report explains ___ the new system will reduce costs.
+
+ (A) how (B) what (C) whether (D) who
+
+ 2장-5. The supervisor asked ___ the invoices had been approved.
+
+ (A) what (B) whether (C) who (D) whose
+
+ 2장-6. The team discussed ___ should be included in the proposal.
+
+ (A) what (B) that (C) whether (D) when
+
+ 2장-7. It is important ___ all employees attend the training.
+
+ (A) what (B) that (C) whether (D) who
+
+ 2장-8. The client did not specify ___ the package should be delivered.
+
+ (A) when (B) what (C) that (D) who
+
+ 2장-9. The analyst knows ___ caused the sudden increase in sales.
+
+ (A) that (B) what (C) whether (D) when
+
+ 2장-10. The form asks ___ applicants have previous experience.
+
+ (A) what (B) that (C) whether (D) who
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                                                   3
+ 2장-11. The notice explains ___ employees can access the new database.
+
+ (A) how (B) what (C) whether (D) whose
+
+ 2장-12. We are confident ___ the new policy will improve efficiency.
+
+ (A) what (B) that (C) whether (D) who
+
+ 2장-13. The committee has not decided ___ will lead the project.
+
+ (A) what (B) who (C) that (D) whether
+
+ 2장-14. Please confirm ___ your contact information is correct.
+
+ (A) what (B) that (C) whether (D) who
+
+ 2장-15. The instructions describe ___ to install the software.
+
+ (A) how (B) what (C) whether (D) that
+
+ 2장-16. No one knows ___ the shipment was delayed.
+
+ (A) why (B) what (C) that (D) who
+
+ 2장-17. The survey shows ___ customers prefer online support.
+
+ (A) what (B) that (C) whether (D) who
+
+ 2장-18. The receptionist explained ___ visitors should park.
+
+ (A) where (B) what (C) whether (D) that
+
+ 2장-19. The director will announce ___ received the award.
+
+ (A) that (B) who (C) whether (D) what
+
+ 2장-20. The document outlines ___ must be completed before launch.
+
+ (A) what (B) that (C) whether (D) when
+
+
+
+
+TOEIC Part 5 Advanced Practice                                           4
+ 3장. 관계대명사·관계부사 심화
+   목표: 선행사가 사람/사물/장소/시간/소유인지 보고, 뒤 문장이 완전한지 불완전한지 판단한다.
+
+ 이론
+  표현                             선행사                              뒤 구조
+
+  who                            사람                               뒤 문장에 주어/목적어가 빠짐
+
+  which/that                     사물                               뒤 문장에 주어/목적어가 빠짐
+
+  whose                          사람/사물 소유                         뒤에 명사가 바로 옴
+
+  where                          장소                               뒤 문장이 완전
+
+  when                           시간                               뒤 문장이 완전
+
+
+ 외워야 할 것
+ - 관계대명사: 뒤가 불완전하다. The report which you requested.
+
+ - 관계부사: 뒤가 완전하다. The office where we met.
+
+ - whose + 명사: The employee whose laptop was stolen.
+
+ 문제 20개
+ 3장-1. The employee ___ submitted the expense report is on vacation.
+
+ (A) who (B) which (C) where (D) when
+
+ 3장-2. The software ___ we purchased last month has already been updated.
+
+ (A) who (B) which (C) where (D) when
+
+ 3장-3. The office ___ the training was held is being renovated.
+
+ (A) who (B) which (C) where (D) whose
+
+ 3장-4. The day ___ the new policy takes effect has not been announced.
+
+ (A) who (B) which (C) when (D) where
+
+ 3장-5. The applicant ___ resume was selected will be interviewed tomorrow.
+
+ (A) who (B) which (C) whose (D) where
+
+ 3장-6. The documents ___ were delivered yesterday are on your desk.
+
+ (A) who (B) which (C) where (D) when
+
+ 3장-7. The hotel ___ we stayed during the conference was recently renovated.
+
+ (A) which (B) where (C) whose (D) when
+
+ 3장-8. The manager ___ you met yesterday will lead the project.
+
+ (A) who (B) where (C) when (D) whose
+
+ 3장-9. The report ___ contains the sales figures is attached.
+
+ (A) who (B) which (C) where (D) when
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                       5
+ 3장-10. The company ___ headquarters are in Busan opened a new branch.
+
+ (A) who (B) which (C) whose (D) where
+
+ 3장-11. The year ___ the company was founded is printed on the brochure.
+
+ (A) which (B) when (C) where (D) whose
+
+ 3장-12. The warehouse ___ the products are stored is near the airport.
+
+ (A) which (B) where (C) who (D) when
+
+ 3장-13. The technician ___ repaired the copier left a receipt.
+
+ (A) which (B) who (C) where (D) when
+
+ 3장-14. The proposal ___ the board approved will be implemented soon.
+
+ (A) who (B) which (C) where (D) when
+
+ 3장-15. The client ___ order was delayed received a discount.
+
+ (A) who (B) which (C) whose (D) where
+
+ 3장-16. The room ___ we usually hold interviews is unavailable.
+
+ (A) where (B) which (C) who (D) whose
+
+ 3장-17. The consultant ___ advice helped the team was invited again.
+
+ (A) who (B) whose (C) which (D) where
+
+ 3장-18. The machine ___ broke down has been replaced.
+
+ (A) who (B) which (C) where (D) when
+
+ 3장-19. The month ___ sales are highest is usually December.
+
+ (A) when (B) which (C) where (D) whose
+
+ 3장-20. The branch ___ handles international orders is expanding.
+
+ (A) where (B) which (C) when (D) whose
+
+
+
+
+TOEIC Part 5 Advanced Practice                                             6
+ 4장. 동명사와 to부정사 선택
+   목표: 동사/표현이 뒤에 -ing를 요구하는지 to V를 요구하는지 외우고, 전치사 뒤 -ing를 구분한다.
+
+ 이론
+  패턴                                     외울 표현
+
+  동명사 목적어                                avoid, consider, finish, enjoy, mind, postpone, suggest, recommend + -ing
+
+  to부정사 목적어                              decide, plan, agree, expect, offer, fail, manage, hope + to V
+
+  전치사 뒤                                  for/before/after/without/by + -ing
+
+  to가 전치사인 표현                            look forward to -ing, be committed to -ing, be accustomed to -ing
+
+
+ 외워야 할 것
+ - avoid making errors / decide to revise the plan
+
+ - look forward to meeting you / be responsible for reviewing documents
+
+ - suggest that S V도 가능하지만 suggest to V는 보통 피한다.
+
+ 문제 20개
+ 4장-1. The company decided ___ the outdated software.
+
+ (A) replacing (B) to replace (C) replace (D) replaced
+
+ 4장-2. The manager suggested ___ the schedule before Friday.
+
+ (A) revising (B) to revise (C) revise (D) revised
+
+ 4장-3. Employees should avoid ___ confidential information.
+
+ (A) share (B) to share (C) sharing (D) shared
+
+ 4장-4. The team plans ___ the new service in July.
+
+ (A) launching (B) to launch (C) launch (D) launched
+
+ 4장-5. Please finish ___ the application before noon.
+
+ (A) complete (B) to complete (C) completed (D) completing
+
+ 4장-6. The director agreed ___ the proposal again.
+
+ (A) reviewing (B) to review (C) review (D) reviewed
+
+ 4장-7. We look forward to ___ you at the conference.
+
+ (A) meet (B) meeting (C) to meet (D) met
+
+ 4장-8. The consultant recommended ___ the marketing budget.
+
+ (A) increase (B) to increase (C) increasing (D) increased
+
+ 4장-9. The staff failed ___ the documents on time.
+
+ (A) submitting (B) to submit (C) submit (D) submitted
+
+ 4장-10. Before ___ the contract, read all terms carefully.
+
+ (A) sign (B) to sign (C) signing (D) signed
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                                                       7
+ 4장-11. The committee postponed ___ a final decision.
+
+ (A) make (B) to make (C) making (D) made
+
+ 4장-12. The company expects ___ sales next quarter.
+
+ (A) increase (B) to increase (C) increasing (D) increased
+
+ 4장-13. Thank you for ___ our customer service team.
+
+ (A) contact (B) to contact (C) contacting (D) contacted
+
+ 4장-14. The new system is designed ___ processing time.
+
+ (A) reduce (B) to reduce (C) reducing (D) reduced
+
+ 4장-15. The supervisor is responsible for ___ all invoices.
+
+ (A) approve (B) to approve (C) approving (D) approved
+
+ 4장-16. The company hopes ___ the renovation by March.
+
+ (A) complete (B) to complete (C) completing (D) completed
+
+ 4장-17. Several employees considered ___ to a different branch.
+
+ (A) transfer (B) to transfer (C) transferring (D) transferred
+
+ 4장-18. The technician managed ___ the printer before the meeting.
+
+ (A) repair (B) to repair (C) repairing (D) repaired
+
+ 4장-19. Without ___ the receipt, we cannot process the refund.
+
+ (A) receive (B) to receive (C) receiving (D) received
+
+ 4장-20. The company offered ___ free training to all employees.
+
+ (A) provide (B) to provide (C) providing (D) provided
+
+
+
+
+TOEIC Part 5 Advanced Practice                                       8
+ 5장. 전치사 숙어
+   목표: Part 5에서 의미만으로 헷갈리는 전치사구를 덩어리로 외운다.
+
+ 이론
+  숙어                             뜻                                      예시
+
+  in accordance with             ~에 따라                                  in accordance with company policy
+
+  on behalf of                   ~을 대신하여                                on behalf of the manager
+
+  prior to                       ~전에                                    prior to the meeting
+
+  regardless of                  ~와 상관없이                                regardless of experience
+
+  in response to                 ~에 응답하여                                in response to your request
+
+
+ 외워야 할 것
+ - 전치사 숙어는 대부분 뒤에 명사구가 온다.
+
+ - because of/due to/prior to/regardless of/instead of 뒤에는 명사 또는 동명사.
+
+ - 뜻보다 덩어리 형태를 먼저 외워라.
+
+ 문제 20개
+ 5장-1. The form must be completed ___ company policy.
+
+ (A) in accordance with (B) on behalf of (C) instead of (D) regardless of
+
+ 5장-2. Ms. Chen signed the document ___ the department director.
+
+ (A) according to (B) on behalf of (C) prior to (D) in addition to
+
+ 5장-3. The report was revised ___ the client's comments.
+
+ (A) in response to (B) instead of (C) regardless of (D) on behalf of
+
+ 5장-4. Please arrive at least ten minutes ___ the interview.
+
+ (A) due to (B) prior to (C) according to (D) except for
+
+ 5장-5. All employees must attend the training ___ their department.
+
+ (A) regardless of (B) instead of (C) as of (D) by means of
+
+ 5장-6. The office will be closed tomorrow ___ the holiday.
+
+ (A) due to (B) according to (C) on behalf of (D) with regard to
+
+ 5장-7. ___ the new schedule, the meeting will begin at 9 A.M.
+
+ (A) According to (B) Instead of (C) On behalf of (D) Regardless of
+
+ 5장-8. The manager sent an e-mail ___ the budget proposal.
+
+ (A) with regard to (B) instead of (C) prior to (D) by means of
+
+ 5장-9. The company hired temporary workers ___ permanent staff.
+
+ (A) instead of (B) according to (C) on behalf of (D) in response to
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                                              9
+ 5장-10. ___ the invoice, please include a copy of the receipt.
+
+ (A) In addition to (B) Regardless of (C) By means of (D) Except for
+
+ 5장-11. The new prices are effective ___ June 1.
+
+ (A) as of (B) due to (C) on behalf of (D) in charge of
+
+ 5장-12. The assistant is ___ organizing the workshop.
+
+ (A) in charge of (B) according to (C) instead of (D) prior to
+
+ 5장-13. The product is subject ___ additional safety testing.
+
+ (A) to (B) for (C) with (D) by
+
+ 5장-14. The store is open every day ___ Sundays.
+
+ (A) except for (B) according to (C) on behalf of (D) due to
+
+ 5장-15. The files were transferred ___ a secure online system.
+
+ (A) by means of (B) with regard to (C) instead of (D) regardless of
+
+ 5장-16. The team met ___ the product launch.
+
+ (A) in preparation for (B) on behalf of (C) regardless of (D) as of
+
+ 5장-17. All procedures must be completed ___ safety regulations.
+
+ (A) in compliance with (B) instead of (C) except for (D) on behalf of
+
+ 5장-18. The package arrived late ___ severe weather.
+
+ (A) due to (B) prior to (C) according to (D) in addition to
+
+ 5장-19. The notice was posted ___ recent changes to the schedule.
+
+ (A) in response to (B) instead of (C) by means of (D) except for
+
+ 5장-20. ___ the main entrance, visitors may use the side door.
+
+ (A) Apart from (B) Due to (C) On behalf of (D) As of
+
+
+
+
+TOEIC Part 5 Advanced Practice                                           10
+ 6장. 유사어휘
+   목표: 뜻이 비슷하거나 철자가 비슷한 단어를 문맥과 품사로 구분한다.
+
+ 이론
+  쌍                                     구분
+
+  accept / except                       accept=받아들이다, except=~을 제외하고
+
+  affect / effect                       affect=영향을 미치다, effect=효과/결과
+
+  assure / ensure / insure              assure=사람을 안심시키다, ensure=보장하다, insure=보험에 들다
+
+  personal / personnel                  personal=개인의, personnel=직원/인사
+
+  adapt / adopt                         adapt=적응/수정하다, adopt=채택하다
+
+
+ 외워야 할 것
+ - 유사어휘는 문장 속 목적어와 같이 외운다.
+
+ - ensure compliance / assure customers / insure property
+
+ - personal information / personnel department
+
+ 문제 20개
+ 6장-1. The company will ___ the new accounting system next month.
+
+ (A) adapt (B) adopt (C) accept (D) except
+
+ 6장-2. Employees must ___ to the revised work schedule.
+
+ (A) adopt (B) adapt (C) affect (D) effect
+
+ 6장-3. The new policy will ___ all full-time employees.
+
+ (A) effect (B) affect (C) accept (D) except
+
+ 6장-4. The advertising campaign had a positive ___ on sales.
+
+ (A) affect (B) effect (C) accept (D) except
+
+ 6장-5. All applicants were considered ___ those who submitted incomplete forms.
+
+ (A) accept (B) except (C) access (D) excess
+
+ 6장-6. The manager will ___ the delivery date with the supplier.
+
+ (A) confirm (B) conform (C) perform (D) inform
+
+ 6장-7. The new chairs are more ___ than the previous ones.
+
+ (A) comfortable (B) comforting (C) comfortably (D) comfort
+
+ 6장-8. Please contact the ___ department to update your benefits information.
+
+ (A) personal (B) personnel (C) personally (D) person
+
+ 6장-9. Do not share your ___ information with unauthorized users.
+
+ (A) personnel (B) personal (C) personally (D) person
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                         11
+ 6장-10. The company will ___ that all safety standards are met.
+
+ (A) assure (B) ensure (C) insure (D) sure
+
+ 6장-11. The representative tried to ___ customers that the issue was temporary.
+
+ (A) ensure (B) assure (C) insure (D) secure
+
+ 6장-12. The warehouse is used to ___ valuable equipment.
+
+ (A) ensure (B) assure (C) insure (D) sure
+
+ 6장-13. The printer is currently out of ___.
+
+ (A) order (B) ordinary (C) ordered (D) ordering
+
+ 6장-14. The repair work will ___ for approximately two hours.
+
+ (A) last (B) late (C) later (D) latest
+
+ 6장-15. The technician was able to ___ the problem quickly.
+
+ (A) rise (B) raise (C) arise (D) resolve
+
+ 6장-16. The company plans to ___ prices next quarter.
+
+ (A) rise (B) raise (C) arise (D) arose
+
+ 6장-17. Prices are expected to ___ next quarter.
+
+ (A) raise (B) rise (C) arise (D) arose
+
+ 6장-18. Please ___ the attached document for details.
+
+ (A) refer (B) review (C) revise (D) reverse
+
+ 6장-19. The stationery cabinet contains paper, pens, and envelopes.
+
+ (A) stationary (B) stationery (C) statistics (D) station
+
+ 6장-20. The principal reason for the delay was a shortage of parts.
+
+ (A) principle (B) principal (C) primarily (D) priority
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                    12
+ 7장. 관용 collocation
+   목표: 단어 하나가 아니라 동사+명사 덩어리로 외워서 어휘 문제를 빠르게 푼다.
+
+ 이론
+  표현                                     뜻
+
+  make a reservation                     예약하다
+
+  meet a deadline                        마감일을 지키다
+
+  submit an application                  지원서를 제출하다
+
+  conduct a survey                       설문조사를 실시하다
+
+  issue a refund                         환불을 발행하다
+
+
+ 외워야 할 것
+ - collocation은 한국어 뜻보다 영어 덩어리를 그대로 외운다.
+
+ - meet a deadline / miss a deadline / extend a deadline
+
+ - place an order / file a complaint / reach an agreement
+
+ 문제 20개
+ 7장-1. Please ___ a reservation at least two days in advance.
+
+ (A) do (B) make (C) take (D) give
+
+ 7장-2. All departments must ___ the deadline for budget requests.
+
+ (A) meet (B) see (C) touch (D) arrive
+
+ 7장-3. Applicants must ___ their applications by Friday.
+
+ (A) submit (B) send out (C) deliver (D) transport
+
+ 7장-4. The company will ___ a customer satisfaction survey next week.
+
+ (A) conduct (B) make (C) performing (D) doer
+
+ 7장-5. The board will ___ the request at its next meeting.
+
+ (A) approve (B) agree (C) acceptance (D) permit to
+
+ 7장-6. All new employees must ___ the safety workshop.
+
+ (A) attend (B) assist (C) appear (D) visit to
+
+ 7장-7. The company plans to ___ a new product line in September.
+
+ (A) launch (B) depart (C) rise (D) attend
+
+ 7장-8. The tenant decided to ___ the lease for another year.
+
+ (A) renew (B) repeat (C) return (D) restore
+
+ 7장-9. Customers can ___ an order through the company website.
+
+ (A) place (B) put (C) set (D) locate
+
+
+
+
+TOEIC Part 5 Advanced Practice                                          13
+ 7장-10. The customer called to ___ a complaint about the service.
+
+ (A) file (B) fill (C) arrange (D) locate
+
+ 7장-11. The store agreed to ___ a refund for the defective item.
+
+ (A) issue (B) print (C) write (D) publish
+
+ 7장-12. The two companies reached an ___ after several weeks of talks.
+
+ (A) agreement (B) agree (C) agreed (D) agreeable
+
+ 7장-13. The new policy will ___ effect on July 1.
+
+ (A) take (B) make (C) do (D) have
+
+ 7장-14. The department will ___ a meeting to discuss the issue.
+
+ (A) hold (B) keep (C) remain (D) stay
+
+ 7장-15. The system provides users with secure ___ to company files.
+
+ (A) access (B) entry (C) arrival (D) approach
+
+ 7장-16. The proposal must ___ approval from the finance department.
+
+ (A) gain (B) earn to (C) receive to (D) win to
+
+ 7장-17. All employees must ___ with company regulations.
+
+ (A) comply (B) agree (C) follow to (D) obey to
+
+ 7장-18. The new process will help ___ operating costs.
+
+ (A) reduce (B) decline (C) less (D) lowering
+
+ 7장-19. The training program is designed to ___ productivity.
+
+ (A) increase (B) rise (C) grow up (D) raise up
+
+ 7장-20. Ms. Gomez will ___ a presentation on market trends.
+
+ (A) deliver (B) send (C) transport (D) ship
+
+
+
+
+TOEIC Part 5 Advanced Practice                                           14
+ 8장. 자동사·타동사
+   목표: 목적어를 바로 받는 동사와 목적어 없이 쓰이는 동사를 구분하고, 수동태 가능 여부를 판단한다.
+
+ 이론
+  구분                             핵심                                  예시
+
+  타동사                            목적어를 바로 받음. 보통 수동태 가능.              discuss the issue / approve the request
+
+  자동사                            목적어 없이 쓰임. 보통 수동태 불가.               occur / happen / arrive / rise
+
+  전치사 낚시                         일부 타동사는 about/to 없이 목적어를 바로 받음.
+                                                              discuss the issue / attend the meeting
+
+  rise vs raise                  rise=오르다 자동사, raise=올리다 타동사         prices rose / the company raised prices
+
+  lie vs lay                     lie=놓여 있다 자동사, lay=놓다 타동사           documents lie on the desk / lay documents on the desk
+
+
+ 외워야 할 것
+ - 수동태는 보통 타동사만 가능하다: The request was approved.
+
+ - occur/happen/arrive/rise/disappear/remain/exist는 보통 수동태로 만들지 않는다.
+
+ - discuss, attend, enter, reach, approach는 전치사 없이 목적어를 바로 받는 경우가 많다.
+
+ 문제 20개
+ 8장-1. The accident ___ near the warehouse yesterday.
+
+ (A) occurred (B) was occurred (C) occurring (D) was occurring by
+
+ 8장-2. The documents ___ by the supervisor this morning.
+
+ (A) reviewed (B) were reviewed (C) reviewing (D) were occurred
+
+ 8장-3. Several guests ___ at the hotel before noon.
+
+ (A) arrived (B) were arrived (C) arriving (D) was arrived
+
+ 8장-4. The price of oil ___ sharply last week.
+
+ (A) raised (B) rose (C) was raised by (D) raising
+
+ 8장-5. The company ___ prices by five percent.
+
+ (A) rose (B) raised (C) was risen (D) rising
+
+ 8장-6. The committee will ___ the proposal on Friday.
+
+ (A) discuss (B) discuss about (C) discussing (D) discussion
+
+ 8장-7. All employees must ___ the safety seminar.
+
+ (A) attend (B) attend to (C) assist (D) visit to
+
+ 8장-8. The problem ___ after the software update.
+
+ (A) happened (B) was happened (C) happening (D) was happening by
+
+ 8장-9. The shipment ___ at the distribution center late Monday.
+
+ (A) arrived (B) was arrived (C) arriving (D) were arrived
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                                                               15
+ 8장-10. The request ___ by the finance department.
+
+ (A) approved (B) was approved (C) approving (D) was occurred
+
+ 8장-11. The number of visitors ___ during the summer.
+
+ (A) increased (B) was increased by (C) increasing (D) was increasing by
+
+ 8장-12. The marketing team ___ the number of visitors with a new campaign.
+
+ (A) increased (B) was increased (C) rose (D) occurred
+
+ 8장-13. The issue ___ during the final inspection.
+
+ (A) arose (B) was arisen (C) arising (D) was arising by
+
+ 8장-14. The technician ___ the issue before the meeting.
+
+ (A) resolved (B) was resolved (C) occurred (D) arrived
+
+ 8장-15. The new policy ___ to all full-time employees.
+
+ (A) applies (B) is applied by (C) applying (D) was occurred
+
+ 8장-16. The HR department ___ the new policy to all employees.
+
+ (A) applied (B) was applied (C) occurred (D) arrived
+
+ 8장-17. The documents ___ on the conference table.
+
+ (A) lie (B) lay (C) laid (D) were laid by
+
+ 8장-18. Please ___ the documents on the conference table.
+
+ (A) lie (B) lay (C) laid (D) lying
+
+ 8장-19. The project ___ successful after several revisions.
+
+ (A) proved (B) was proved (C) proving (D) was occurred
+
+ 8장-20. The report ___ that sales increased in May.
+
+ (A) indicates (B) was indicated (C) occurs (D) arrives
+
+
+
+
+TOEIC Part 5 Advanced Practice                                               16
+ 9장. 자주 나오는 예외 표현
+   목표: -ly 형용사, 불가산명사, 특수 구문처럼 초보가 자주 낚이는 표현을 정리한다.
+
+ 이론
+  유형                                     예시
+
+  -ly지만 형용사                              friendly, timely, orderly, costly
+
+  불가산명사                                  information, equipment, advice, luggage
+
+  특수 표현                                  be likely to V, be scheduled to V, be worth -ing
+
+
+ 외워야 할 것
+ - information/equipment/advice/luggage는 보통 s를 붙이지 않는다.
+
+ - discuss about X, attend to the meeting X
+
+ - friendly/timely/orderly/costly는 -ly지만 형용사다.
+
+ 문제 20개
+ 9장-1. The receptionist gave visitors a ___ welcome.
+
+ (A) friendly (B) friendlily (C) friendship (D) friend
+
+ 9장-2. The manager requested a ___ response to the client's question.
+
+ (A) timely (B) timelily (C) timing (D) time
+
+ 9장-3. The files were arranged in an ___ manner.
+
+ (A) orderly (B) orderlily (C) ordering (D) order
+
+ 9장-4. The delay was ___ for a small business.
+
+ (A) costly (B) costlily (C) cost (D) costing
+
+ 9장-5. The website provides detailed ___ about the product.
+
+ (A) informations (B) information (C) inform (D) informative
+
+ 9장-6. The laboratory purchased new ___ last month.
+
+ (A) equipments (B) equipment (C) equips (D) equipped
+
+ 9장-7. The consultant gave useful ___ on improving sales.
+
+ (A) advices (B) advice (C) advise (D) advised
+
+ 9장-8. Passengers may store their ___ in the overhead compartment.
+
+ (A) luggages (B) luggage (C) luggage's (D) luggaging
+
+ 9장-9. The team will ___ the issue at tomorrow's meeting.
+
+ (A) discuss (B) discuss about (C) discussing about (D) discussion
+
+ 9장-10. All staff members must ___ the training session.
+
+ (A) attend (B) attend to (C) assist (D) visit to
+
+
+
+
+TOEIC Part 5 Advanced Practice                                                              17
+ 9장-11. The accident ___ during the final inspection.
+
+ (A) happened (B) was happened (C) happening (D) was happening by
+
+ 9장-12. The problem ___ after the update.
+
+ (A) occurred (B) was occurred (C) occurring (D) was occurring by
+
+ 9장-13. The guests ___ before noon.
+
+ (A) arrived (B) were arrived (C) arriving (D) was arrived
+
+ 9장-14. Prices ___ sharply after the announcement.
+
+ (A) rose (B) were risen (C) rising (D) was risen
+
+ 9장-15. The project is likely ___ by the end of May.
+
+ (A) finish (B) to finish (C) finishing (D) finished
+
+ 9장-16. The seminar is scheduled ___ at 10 A.M.
+
+ (A) begin (B) to begin (C) beginning (D) began
+
+ 9장-17. This report is worth ___ before the meeting.
+
+ (A) read (B) to read (C) reading (D) readed
+
+ 9장-18. The manager had the assistant ___ the files.
+
+ (A) organize (B) to organize (C) organized (D) organizing
+
+ 9장-19. The new software allows users ___ data more easily.
+
+ (A) analyze (B) to analyze (C) analyzing (D) analyzed
+
+ 9장-20. The supervisor suggested that the report ___ revised.
+
+ (A) is (B) be (C) being (D) was being
+
+
+
+
+TOEIC Part 5 Advanced Practice                                      18
+
