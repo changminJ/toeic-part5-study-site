@@ -1206,6 +1206,15 @@ window.VOCAB_DATA = {
   { "id": "w368", "term": "compliance", "meaning": "준수, 따름", "forms": "compliance with regulations / in compliance with the policy / ensure compliance / comply with", "cat": "Part 5" },
   { "id": "w369", "term": "accommodation", "meaning": "시설, 숙박 시설; 편의 제공, 조정", "forms": "hotel accommodations / overnight accommodations / special accommodations / accommodation for guests", "cat": "Part 7" },
   { "id": "w370", "term": "exact", "meaning": "정확한, 꼼꼼한, 정밀한", "forms": "exact details / exact amount / exact location / exact measurements", "cat": "Part 5" },
-  { "id": "w371", "term": "featuring", "meaning": "~을 포함하는, ~을 특징으로 하는; ~이 출연하는", "forms": "a seminar featuring guest speakers / an article featuring an interview / a hotel featuring a restaurant / a show featuring local musicians", "cat": "Part 7" }
+  { "id": "w371", "term": "featuring", "meaning": "~을 포함하는, ~을 특징으로 하는; ~이 출연하는", "forms": "a seminar featuring guest speakers / an article featuring an interview / a hotel featuring a restaurant / a show featuring local musicians", "cat": "Part 7" },
+  { "id": "w372", "term": "regardless of", "meaning": "~에 상관없이, ~와 관계없이", "forms": "regardless of age / regardless of the weather / regardless of whether S V / regardless of cost", "cat": "Part 5" },
+  { "id": "w373", "term": "substance", "meaning": "물질, 물체; 본질, 요지", "forms": "a harmful substance / chemical substances / the substance of the report / substance abuse", "cat": "Part 7" },
+  { "id": "w374", "term": "substantial", "meaning": "상당한, 많은, 실질적인", "forms": "a substantial increase / substantial savings / substantial amount / substantial evidence", "cat": "Part 5" },
+  { "id": "w375", "term": "identically", "meaning": "동일하게, 똑같이", "forms": "identically designed rooms / respond identically / nearly identically / identical products", "cat": "Part 5" },
+  { "id": "w376", "term": "inferior", "meaning": "질이 낮은, 열등한, 하위의", "forms": "inferior quality / inferior products / be inferior to competitors / inferior materials", "cat": "Part 5" },
+  { "id": "w377", "term": "as long as", "meaning": "~하는 한, ~이기만 하면", "forms": "as long as S V / as long as the receipt is valid / as long as you register by Friday / as long as supplies last", "cat": "Part 5" },
+  { "id": "w378", "term": "closely", "meaning": "면밀히, 자세히; 밀접하게", "forms": "closely review the report / monitor closely / work closely with / closely related", "cat": "Part 5" },
+  { "id": "w379", "term": "configuration", "meaning": "[장비·시스템의] 구성, 조합, 배열", "forms": "equipment configuration / system configuration / change the configuration / seating configuration", "cat": "Part 7" },
+  { "id": "w380", "term": "engagement", "meaning": "약속, 업무; 참여, 관여", "forms": "a speaking engagement / a client engagement / employee engagement / prior engagement", "cat": "Part 7" }
  ]
 };
