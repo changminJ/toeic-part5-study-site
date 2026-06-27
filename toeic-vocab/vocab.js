@@ -1155,6 +1155,17 @@ window.VOCAB_DATA = {
   { "id": "w317", "term": "company outing", "meaning": "야유회, 회사 야외 행사", "forms": "company outing / annual company outing / staff outing / go on an outing", "cat": "Part 7" },
   { "id": "w318", "term": "catering service", "meaning": "출장 음식 서비스, 행사 음식 제공 서비스, 케이터링 서비스", "forms": "hire a catering service / catering service for a banquet / provide catering service / contact the caterer", "cat": "Part 7" },
   { "id": "w319", "term": "address", "meaning": "다루다, 해결하다; 주소", "forms": "address a problem / address concerns / address an issue / mailing address", "cat": "Part 5" },
-  { "id": "w320", "term": "trait", "meaning": "특성, 특징", "forms": "personality trait / common trait / desirable trait / distinctive trait", "cat": "Part 7" }
+  { "id": "w320", "term": "trait", "meaning": "특성, 특징", "forms": "personality trait / common trait / desirable trait / distinctive trait", "cat": "Part 7" },
+  { "id": "w321", "term": "accommodate", "meaning": "수용하다, 편의를 제공하다; 맞추다, 순응하다", "forms": "accommodate guests / accommodate a request / accommodate changes / accommodate different schedules", "cat": "Part 5" },
+  { "id": "w322", "term": "commute", "meaning": "통근하다, 출퇴근하다; 통근", "forms": "commute to work / daily commute / commuting time / commuter train", "cat": "Part 7" },
+  { "id": "w323", "term": "inquire", "meaning": "문의하다, 묻다, 알아보다", "forms": "inquire about availability / inquire whether ~ / make an inquiry / customer inquiry", "cat": "Part 7" },
+  { "id": "w324", "term": "auditorium", "meaning": "강당, 객석", "forms": "main auditorium / auditorium entrance / seated in the auditorium / lecture auditorium", "cat": "Part 7" },
+  { "id": "w325", "term": "voucher", "meaning": "쿠폰, 상품권, 이용권", "forms": "meal voucher / travel voucher / gift voucher / redeem a voucher", "cat": "Part 7" },
+  { "id": "w326", "term": "audit", "meaning": "회계 감사, 감사하다", "forms": "conduct an audit / annual audit / audit report / financial audit", "cat": "Part 7" },
+  { "id": "w327", "term": "reassurance", "meaning": "안심시키기, 안심시키는 말; 재확인", "forms": "offer reassurance / need reassurance / give customers reassurance / reassure someone", "cat": "Part 7" },
+  { "id": "w328", "term": "assurance", "meaning": "보장, 확신, 확언", "forms": "quality assurance / give assurance / assurance that ~ / provide assurance", "cat": "Part 7" },
+  { "id": "w329", "term": "amusement park", "meaning": "놀이공원, 유원지", "forms": "visit an amusement park / amusement park tickets / amusement park ride", "cat": "Part 7" },
+  { "id": "w330", "term": "zoo", "meaning": "동물원", "forms": "visit a zoo / zoo entrance / zoo animals / at the zoo", "cat": "Part 7" },
+  { "id": "w331", "term": "caterer", "meaning": "출장 음식 업체, 케이터링 담당자", "forms": "contact the caterer / hire a caterer / the caterer will provide lunch / catering company", "cat": "Part 7" }
  ]
 };
