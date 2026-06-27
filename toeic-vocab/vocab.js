@@ -1166,6 +1166,17 @@ window.VOCAB_DATA = {
   { "id": "w328", "term": "assurance", "meaning": "보장, 확신, 확언", "forms": "quality assurance / give assurance / assurance that ~ / provide assurance", "cat": "Part 7" },
   { "id": "w329", "term": "amusement park", "meaning": "놀이공원, 유원지", "forms": "visit an amusement park / amusement park tickets / amusement park ride", "cat": "Part 7" },
   { "id": "w330", "term": "zoo", "meaning": "동물원", "forms": "visit a zoo / zoo entrance / zoo animals / at the zoo", "cat": "Part 7" },
-  { "id": "w331", "term": "caterer", "meaning": "출장 음식 업체, 케이터링 담당자", "forms": "contact the caterer / hire a caterer / the caterer will provide lunch / catering company", "cat": "Part 7" }
+  { "id": "w331", "term": "caterer", "meaning": "출장 음식 업체, 케이터링 담당자", "forms": "contact the caterer / hire a caterer / the caterer will provide lunch / catering company", "cat": "Part 7" },
+  { "id": "w332", "term": "easily", "meaning": "쉽게; 단연, 확실히", "forms": "easily complete the task / easily the best option / easily accessible", "cat": "Part 5" },
+  { "id": "w333", "term": "restfully", "meaning": "편안하게, 평온하게", "forms": "sleep restfully / restfully decorated room; (형) restful", "cat": "Part 5" },
+  { "id": "w334", "term": "finely", "meaning": "섬세하게, 정교하게; 잘게; 훌륭하게", "forms": "finely detailed / finely chopped / finely crafted", "cat": "Part 5" },
+  { "id": "w335", "term": "application", "meaning": "신청서, 지원서; 신청, 지원; 적용; 응용 프로그램", "forms": "submit an application / job application / application of the policy / software application", "cat": "Part 7" },
+  { "id": "w336", "term": "establishment", "meaning": "기관, 시설, 업체; 설립", "forms": "local establishment / business establishment / establishment of a branch / dining establishment", "cat": "Part 7" },
+  { "id": "w337", "term": "accomplishment", "meaning": "성취, 업적, 완수", "forms": "a major accomplishment / professional accomplishment / accomplishment of a goal", "cat": "Part 7" },
+  { "id": "w338", "term": "issue", "meaning": "발행하다, 발급하다; 문제, 쟁점; 발행물", "forms": "issue a permit / issue a refund / issue an invoice / address an issue", "cat": "Part 5" },
+  { "id": "w339", "term": "hopeful", "meaning": "기대하는, 희망적인", "forms": "be hopeful that ~ / remain hopeful / a hopeful sign / hopeful applicants", "cat": "Part 7" },
+  { "id": "w340", "term": "broadcast", "meaning": "방송하다, 방송되다; 방송", "forms": "be broadcast live / broadcast the announcement / broadcast-broadcast-broadcast", "cat": "Part 7" },
+  { "id": "w341", "term": "whether", "meaning": "~인지 아닌지, ~이든 아니든", "forms": "decide whether S V / whether or not / whether A or B / whether to V", "cat": "Part 5" },
+  { "id": "w342", "term": "traffic coverage", "meaning": "교통 방송, 교통 보도", "forms": "traffic coverage / live traffic coverage / traffic report / traffic update", "cat": "LC" }
  ]
 };
