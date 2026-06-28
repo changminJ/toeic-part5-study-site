@@ -1215,6 +1215,9 @@ window.VOCAB_DATA = {
   { "id": "w377", "term": "as long as", "meaning": "~하는 한, ~이기만 하면", "forms": "as long as S V / as long as the receipt is valid / as long as you register by Friday / as long as supplies last", "cat": "Part 5" },
   { "id": "w378", "term": "closely", "meaning": "면밀히, 자세히; 밀접하게", "forms": "closely review the report / monitor closely / work closely with / closely related", "cat": "Part 5" },
   { "id": "w379", "term": "configuration", "meaning": "[장비·시스템의] 구성, 조합, 배열", "forms": "equipment configuration / system configuration / change the configuration / seating configuration", "cat": "Part 7" },
-  { "id": "w380", "term": "engagement", "meaning": "약속, 업무; 참여, 관여", "forms": "a speaking engagement / a client engagement / employee engagement / prior engagement", "cat": "Part 7" }
+  { "id": "w380", "term": "engagement", "meaning": "약속, 업무; 참여, 관여", "forms": "a speaking engagement / a client engagement / employee engagement / prior engagement", "cat": "Part 7" },
+  { "id": "w381", "term": "identify", "meaning": "식별하다, 확인하다, 찾아내다; 구분하다, 구별하다", "forms": "identify a problem / identify the cause / identify customer needs / identify the correct option", "cat": "Part 5" },
+  { "id": "w382", "term": "figure", "meaning": "수치, 숫자; 인물; 도표; 생각하다, 판단하다", "forms": "sales figures / recent figures / a public figure / figure out the problem", "cat": "Part 7" },
+  { "id": "w383", "term": "statement", "meaning": "명세서, 진술, 성명서", "forms": "billing statement / account statement / monthly statement / issue a statement", "cat": "Part 7" }
  ]
 };
